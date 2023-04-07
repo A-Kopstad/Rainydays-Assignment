@@ -71,6 +71,50 @@ h2{
     height: 250px;
 }
 
+.overlay-container{
+    position: relative;
+}
+.overlay {
+    position: absolute; 
+    bottom: 0; 
+    background: rgba(237, 232, 227, 0.7);
+    color: white; 
+    width: 100%;
+    transition: .8s ;
+    opacity:0;
+    font-size: 25px;
+    height:100px;
+    text-align: center;
+    -webkit-text-stroke: #00396b 1px;
+    font-family: 'Harmattan',sans-serif;
+    line-height: 1px;
+}
+.overlay-container:hover .overlay{
+    opacity: 1;
+ }
+ .color12_p_container{
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    gap: 5px;
+ }
+ .color1{
+width: 27px;
+height: 29px;
+background: #606F84;
+border: 2px solid #FFFFFF;
+ }
+
+ .color2{
+    width: 27px;
+    height: 29px;
+    background: #D6C5CB;
+    border: 2px solid #FFFFFF;
+ }
+
+ #price{
+    margin: 0;
+ }
 .fish-container-flex{
     margin-top: 200px;
     display: flex;
@@ -185,3 +229,5 @@ h2{
         padding-left: 293px;
     }
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Harmattan&display=swap');
