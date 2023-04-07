@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About us | Rainy Days</title>
-    <link rel="stylesheet" href="css/productpage2-style.css" />
-    <link rel="stylesheet" href="css/topnfooter.css" />
+    <link rel="stylesheet" href="/css/productpage-style.css" />
+    <link rel="stylesheet" href="/css/topnfooter.css" />
   </head>
 
   <body>
@@ -19,7 +19,7 @@
         </ul>
 
         <div class="middle-bar">
-          <a href="index.html"><img id="logo" src="Images/Logo.png" /></a>
+          <a href="/index.html"><img id="logo" src="/images/Logo.png" /></a>
 
           <ul>
             <li id="women-list"><a href="/html/womens.html">Women</a></li>
@@ -36,8 +36,8 @@
           </form>
 
           <div class="icons">
-            <img id="heart" src="images/Heart.png" />
-            <img id="bag" src="images/Bag.png" />
+            <img id="heart" src="/images/Heart.png" />
+            <img id="bag" src="/images/Bag.png" />
           </div>
         </div>
         <div class="underline"></div>
@@ -60,7 +60,7 @@
             <div class="row1">
               <div class="jacket-container">
                 <a href="/html/productpage.html">
-                  <img class="jacket" src="images/bluejacket.png" alt="Jacket"
+                  <img class="jacket" src="/images/bluejacket.png" alt="Jacket"
                 /></a>
               </div>
               <p id="text">
@@ -80,12 +80,36 @@
                 <a href="/html/productpage2.html"><span id="blue"></span></a>
               </div>
             </div>
-            <div class="row3">
-              <button class="size" id="xs">xs</button>
-              <button class="size" id="s">s</button>
-              <button class="size" id="m">m</button>
-              <button class="size" id="l">l</button>
-              <button class="size" id="xl">xl</button>
+            <form class="row3" action="html/mens.html">
+              <span class="overallspan">
+                <span id="span1">
+                  <input
+                    type="radio"
+                    value="xs"
+                    id="xs"
+                    name="size"
+                    checked="checked"
+                  />
+                  <label for="xs">xs</label>
+                  <input type="radio" value="s" id="s" name="size" />
+                  <label for="s">s</label>
+                  <input type="radio" id="m" name="size" />
+                  <label for="m">m</label>
+                  <input type="radio" id="l" name="size" />
+                  <label for="l">l</label>
+                  <input type="radio" id="xl" name="size" />
+                  <label for="xl">xl</label>
+                </span>
+                <span id="cart-span">
+                  <button id="addtocart">Add to cart</button>
+                </span>
+              </span>
+            </form>
+            <div class="row4">
+              <div class="favorite">
+                <img class="heart1" src="/images/beigeheartwithout.png" alt="" />
+                <img class="heart2" src="/images/beigeheart.png" alt="" />
+              </div>
             </div>
           </div>
         </div>
@@ -97,7 +121,7 @@
         <div class="flex-img">
           <div class="rainydays-footer-img">
             <a href="/html/index.html"
-              ><img src="images/Rainydays-text.png" alt=""
+              ><img src="/images/Rainydays-text.png" alt=""
             /></a>
           </div>
         </div>
