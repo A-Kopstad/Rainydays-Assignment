@@ -1,0 +1,159 @@
+body{
+    margin: 0%;
+}
+
+a{ text-decoration: none; color:#00396b; }
+
+.top-bar{
+display:flex;
+justify-content: flex-start;
+align-items: center;
+margin-top: 0%;
+height: 40px;
+gap:2em;
+list-style-type: none;
+background: #EDE8E3;
+padding-left: 10em;
+}
+
+.top-bar li{
+font-weight: bold;
+}
+
+.middle-bar{
+display: flex;
+position: relative;
+justify-content: space-around;
+align-items: center;
+}
+
+ #logo{
+    width: 193px;
+    height: 104px;
+    max-width: 100%;
+    margin-left: 50px;
+    margin-right: 150px;
+    
+}
+
+.middle-bar ul{
+    font-size: 30px;
+    display:flex;
+    gap: 60px;
+    list-style-type: none;
+    position: relative;
+    right:25px;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    margin-right: 3em;
+    gap: 1em;
+}
+
+#heart{
+width: 42px;
+height: 36px;
+max-width: 100%;
+}
+
+#bag{
+    width: 51px;
+    height: 51px;
+    max-width: 100%; 
+}
+
+
+.searchbar_email{   
+    font-size: 1em;  
+    border-color:  #00396b;
+    width: 15em;
+    height: 2em;
+    border-radius: 2em;
+    padding-left: 1em;
+    color: #00396b;
+    }  
+
+    input:focus{
+        outline: none;   
+    }
+
+    
+.underline { background: #EDE8E3; padding: 20px; }
+
+
+footer {
+    background-color: #EDE8E3;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.rainydays-footer-img{
+    object-fit: contain;
+    max-width: 350px;
+    height: 100px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.flex-img{
+    display: flex;
+    justify-content: center;
+   
+}
+
+footer ul{
+  list-style-type: none;
+  padding-left: 20px;
+  font-size: 25px;
+  color: #00396b;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 0%;
+}
+
+
+#news-text{
+   font-size: 25px
+}
+
+.news{
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+@media (max-width: 847px){
+    .middle-bar{
+        flex-direction: column;
+    }
+
+    .top-bar{
+        justify-content: center;
+        padding-left: 0%;
+    }
+
+    #logo{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .icons{
+        margin-right: 0%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}

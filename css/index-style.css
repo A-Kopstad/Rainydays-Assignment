@@ -1,0 +1,187 @@
+body{
+    margin: 0%;
+}
+
+a{ text-decoration: none; color:#00396b; }
+.container{
+    display: flex;
+    background-color: #EDE8E3;
+    margin-top: 150px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.raincoat{
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+
+}
+
+.inner-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.yellow-text{
+    object-fit: contain;
+    width: 500px;
+    height: 100px;
+    margin-top: 10px;  
+}
+
+h1{
+    max-width: 450px;
+    font-size: 50px;
+    color:white ;
+    text-shadow: 2px 4px 4px rgb(187, 184, 184);
+    top: 100px;
+}
+
+h2{
+    margin-top: 5em;
+    padding-left: 9.5vw;
+    font-size: 40px;
+    color: #00396b;
+}
+.newin-products{
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
+    }
+    
+    .newin-products2 {
+    display: flex;
+    border: 30px solid #EDE8E3;
+    padding: 50px;
+    width: 1200px;
+    border-radius: 5px;
+    justify-content: space-around;
+    gap: 10px;
+    }
+
+
+.jacket-container {
+    border-radius: 5px;
+    border: solid #EDE8E3 5px;
+}
+.jacket {
+    width: 325px;
+    height: 250px;
+}
+
+.fish-container-flex{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.fish-container-grid {
+    display: grid;
+}
+
+.fishing-img{
+    grid-row: 1;
+   grid-column: 1;
+}
+.fish-text-1{
+    grid-row: 1;
+    grid-column: 1;
+    padding-top: 2em;
+    padding-left: 2em;
+    color: white;
+    font-size: 30px;
+    width: 200px;
+}
+
+.fish-text-2{
+    grid-row: 1;
+    grid-column: 1;
+    padding-top: 550px;
+    padding-left: 350px;
+    font-size: 25px;
+    width: 150px;
+    color: white;
+}
+
+.white-arrow {
+    grid-row: 1;
+    grid-column: 1;
+    padding-top: 680px;
+    padding-left: 350px;
+}
+
+   @media (max-width: 847px){
+    .raincoat{
+        width: 218.75px;
+        height: 218.75px;
+    }
+    .yellow-text{
+        width: 300px;
+        height: 100px;
+    }
+    h1{
+        font-size: 40px; 
+        max-width: 350px;
+    }
+    .container{
+        flex-direction: column-reverse;
+    }
+
+    .newin-products2{
+        max-width:660px;
+        flex-direction: column;
+        align-items: center;
+        border: 10px solid #EDE8E3;
+        margin: 40px;
+    }
+
+   .jacket{
+    width: 231.57px;
+    height: 178.2px;
+    }
+
+    .fishing-img{
+        height: 550px;
+    }
+
+    .fish-text-1{
+        font-size: 25px;
+    }
+
+    .fish-text-2{
+        font-size: 25px;
+        padding-top: 355px;
+        padding-left: 230px;
+    }
+
+    .white-arrow{
+        padding-top: 480px;
+        padding-left: 230px;
+    }
+}
+
+@media (max-width:480px){
+    
+    .fishing-img{
+        height: 600px;
+        margin-left: 25px;
+    }
+
+    .fish-text-1{
+        font-size: 25px;
+        padding-left: 80px;
+        padding-top: 20px;
+    }
+    .fish-text-2{
+        font-size: 25px;
+        padding-top: 400px;
+        padding-left: 290px;
+    }
+
+    .white-arrow{
+        padding-top:530px;
+        padding-left: 293px;
+    }
+}

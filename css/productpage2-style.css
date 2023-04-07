@@ -1,0 +1,121 @@
+.container {
+    height: 50px;
+    background-color:#EDE8E3;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(143, 140, 140);
+    text-indent: 50px;
+    font-size: 30px;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    color: #00396b;
+    font-size: 30px;
+}
+
+.product-container-outer{
+    display: flex;
+    justify-content: center;
+}
+.product-container-inner{
+    border: 10px solid #EDE8E3;
+    border-radius: 5px;
+    width: 1200px;
+}
+
+.row1{
+ display: flex;
+ justify-content: space-around;
+}  
+
+.jacket-container{
+    border: solid #EDE8E3;
+    border-radius: 1em;
+    margin-top: 50px;
+    padding-top: 20px;
+    height: 600px;
+}
+
+#text{
+    margin-top: 105px;
+    font-size:30px;
+    max-width: 350px;
+    line-height: 70px;
+}
+
+.row2{
+    display: flex;
+    margin-left: 270px;
+    gap: 20px;
+}
+
+.color1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.color2{
+    display: flex;
+   flex-direction: column;
+    align-items: center;
+}
+
+.color1 a{
+    border: #EDE8E3 solid 3px;
+    background-color: #D6C5CB; 
+    width: 40px;
+    height: 40px;
+}
+
+.color2 a{
+    border: #00396b solid 3px;
+    background-color: #606F84; 
+    width: 40px;
+    height: 40px;
+}  
+
+.color1 a:hover{
+    border: #00396b solid 3px;
+}
+.color1 a:active{
+    border: #00396b solid 3px;
+
+}
+.row3{
+    margin-left: 130px;
+    margin-bottom: 200px;
+    margin-top: 50px;
+    display: flex;
+    gap: 10px;
+}
+.size{
+    border:#EDE8E3 solid 4px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#xs:focus{
+    border: #00396b solid 5px;
+}
+#s:focus{
+    border: #00396b solid 5px;
+}
+#m:focus{
+    border: #00396b solid 5px;
+}
+#l:focus{
+    border: #00396b solid 5px;
+}
+#xl:focus{
+    border: #00396b solid 5px;
+}

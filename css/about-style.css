@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    background-color: #EDE8E3;
+    margin-top: 150px;
+    align-items: center;
+}
+
+.raincoat{
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: left top;
+    width: 350px;
+    height: 350px;
+    left: 60vw;
+    position: relative;
+    max-width: 100%;
+}
+
+.inner-container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 50px;
+}
+
+h1{
+    font-size: 60px;
+    color:white ;
+    text-shadow: 2px 4px 4px rgb(187, 184, 184);
+    top: 100px;
+}
+
+.border{
+  
+    border: 5px solid #EDE8E3;
+    display: flex;
+    justify-content: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 50px;
+}
+
+    .border p{
+        max-width: 500px;
+        font-size: 30px;
+        line-height: 60px;
+    }
