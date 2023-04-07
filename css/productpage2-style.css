@@ -51,6 +51,7 @@ h2{
     display: flex;
     margin-left: 270px;
     gap: 20px;
+
 }
 
 .color1{
@@ -85,37 +86,75 @@ h2{
 }
 .color1 a:active{
     border: #00396b solid 3px;
-
 }
+
 .row3{
     margin-left: 130px;
-    margin-bottom: 200px;
     margin-top: 50px;
     display: flex;
     gap: 10px;
 }
-.size{
-    border:#EDE8E3 solid 4px;
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+form input{
+display: none;
 }
 
-#xs:focus{
-    border: #00396b solid 5px;
+form input+label:hover{
+    background-color: #b5b7bc;
+    transition: 0.8s;
 }
-#s:focus{
-    border: #00396b solid 5px;
+form input:checked+label{
+    background-color: #b5b7bc;
 }
-#m:focus{
-    border: #00396b solid 5px;
+form label{
+    padding: 20px 20px;
+    background-color: #d6dada9e;
+    border-radius: 50%;
+    border: #EDE8E3 solid 4px;
+    margin: 10px;
 }
-#l:focus{
-    border: #00396b solid 5px;
+
+.overallspan{
+    display:flex;
+    flex-direction: column;
+    gap:60px
 }
-#xl:focus{
-    border: #00396b solid 5px;
+
+#addtocart{
+    height: 60px;
+    width:130px;
+    font-size: 20px;
+    border: #EDE8E3 solid 5px;
+    background-color: white;
+    cursor: pointer;
+    color: #00396b;
 }
+
+.row4{
+    display: flex;
+    margin-left: 230px;
+    margin-top: 50px;
+    gap:20px;
+}
+
+.favorite{
+   display:grid;
+}
+
+.heart1{
+    grid-row: 1;
+    grid-column: 2;
+}
+.heart2{
+grid-row: 1;
+grid-column: 2;
+visibility: hidden;
+}
+
+.heart1:active{
+    visibility:hidden;
+}
+
+.heart1:checked{
+visibility: hidden;}
+
