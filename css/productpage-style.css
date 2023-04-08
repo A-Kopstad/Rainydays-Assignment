@@ -95,15 +95,15 @@ h2{
     gap: 10px;
 }
 
-form input{
+.forminputs{
 display: none;
 }
 
-form input+label:hover{
+.forminputs+label:hover{
     background-color: #b5b7bc;
     transition: 0.8s;
 }
-form input:checked+label{
+.forminputs:checked+label{
     background-color: #b5b7bc;
 }
 form label{

@@ -5,9 +5,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> Checkout | Rainy Days</title>
+    <title>Checkout | Rainy Days</title>
     <link rel="stylesheet" href="/css/checkout-style.css" />
     <link rel="stylesheet" href="/css/topnfooter.css" />
+    <script
+      src="https://kit.fontawesome.com/282fd42550.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <body>
@@ -27,7 +31,12 @@
           </ul>
 
           <form>
-            <input class="searchbar_email" type="text" placeholder="Search ..." maxlength="30" />
+            <input
+              class="searchbar_email"
+              type="text"
+              placeholder="Search ..."
+              maxlength="30"
+            />
           </form>
 
           <div class="icons">
@@ -42,17 +51,69 @@
     <main>
       <section>
         <div class="container">
-          <img class="raincoat" src="/images/about-img.jpg" />
-          <div class="inner-container">
-            <h1>Checkout</h1>
-          </div>
+          <h1>Checkout</h1>
+          <i class="fa fa-shopping-bag"></i>
         </div>
       </section>
-      
-      <section>
-        <div class="border">
-            <p> Rainy Days was founded in 2023, and is a fast-growing brand, making outdoor jackets for women and men who are ready to explore nature and its changing weather. </p>
+
+      <section class="border">
+          <div class="flexbox1">
+          <h2>Information</h2>
+          <form id="checkoutform" action="/html/checkout.html">
+            <div class="form-row">
+              <label for="Name">Name</label>
+              <input class="input-border" type="text" name="Information" id="Name" />
+            </div>
+            <div class="form-row">
+              <label for="E-mail">E-mail address</label>
+              <input
+                class="input-border"
+                type="text"
+                name="Information"
+                id="E-mail"
+              />
+            </div>
+            <div class="form-row">
+              <label for="Telephone">Phone Number</label>
+              <input
+                class="input-border"
+                type="text"
+                name="Information"
+                id="Telephone"
+              />
+            </div>
+            <div class="form-row">
+              <label for="Address">Delivery Address</label>
+              <input
+                class="input-border"
+                type="text"
+                name="Information"
+                id="Address"
+              />
+            </div>
+            <div class="form-row">
+              <label for="postnumber">Post Number</label>
+              <input
+                class="input-border"
+                type="text"
+                name="Information"
+                id="postnumber"
+              />
+            </div>
+            <div class="form-row">
+              <label for="city">City</label>
+              <input class="input-border" type="text" name="Information" id="city" />
+            </div>
+          </form>
         </div>
+        <div class="flexbox2">
+            <h2>Order Summary</h2>
+            <div class="jacket-container">
+                <a href="/html/productpage.html">
+                  <img class="jacket" src="/images/pinky.png" alt="Jacket"
+                /></a>
+            </div>  
+              <p>Scott </p>
       </section>
     </main>
 
@@ -65,7 +126,7 @@
             /></a>
           </div>
         </div>
-  
+
         <div class="about-contact">
           <ul>
             <li>
