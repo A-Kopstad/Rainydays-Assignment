@@ -57,19 +57,24 @@
       </section>
 
       <section class="border">
-          <div class="flexbox1">
+        <div class="flexbox1">
           <h2>Information</h2>
-          <form id="checkoutform" action="/html/checkout.html">
-            <div class="form-row">
+          <form  action="/html/checkout.html">
+           <div id="checkoutform"> <div class="form-row">
               <label for="Name">Name</label>
-              <input class="input-border" type="text" name="Information" id="Name" />
+              <input
+                class="input-border"
+                type="text"
+                name="Contact Information"
+                id="Name"
+              />
             </div>
             <div class="form-row">
               <label for="E-mail">E-mail address</label>
               <input
                 class="input-border"
                 type="text"
-                name="Information"
+                name="Contact Information"
                 id="E-mail"
               />
             </div>
@@ -78,7 +83,7 @@
               <input
                 class="input-border"
                 type="text"
-                name="Information"
+                name="Contact Information"
                 id="Telephone"
               />
             </div>
@@ -87,7 +92,7 @@
               <input
                 class="input-border"
                 type="text"
-                name="Information"
+                name="Contact Information"
                 id="Address"
               />
             </div>
@@ -96,24 +101,41 @@
               <input
                 class="input-border"
                 type="text"
-                name="Information"
+                name="Contact Information"
                 id="postnumber"
               />
             </div>
             <div class="form-row">
               <label for="city">City</label>
-              <input class="input-border" type="text" name="Information" id="city" />
+              <input
+                class="input-border"
+                type="text"
+                name="Contact Information"
+                id="city"
+              />
             </div>
+        </div>
+            <div class="buttondiv"><button>Continue</button></div>
           </form>
         </div>
         <div class="flexbox2">
-            <h2>Order Summary</h2>
-            <div class="jacket-container">
+          <h2>Order Summary</h2>
+          <div class="innerflex">
+            <div class="outer-jacket-container">
+              <div class="jacket-container">
                 <a href="/html/productpage.html">
                   <img class="jacket" src="/images/pinky.png" alt="Jacket"
                 /></a>
-            </div>  
-              <p>Scott </p>
+              </div>
+            </div>
+            <div class="columntext">
+              <p>Scott Jacket '21</p>
+              <p>Size M</p>
+              <p>Quantity 1</p>
+              <p id="subtotal">Subtotal: $90</p>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
 
