@@ -10,7 +10,7 @@
       crossorigin="anonymous"
     ></script>
     <title>Checkout | Rainy Days</title>
-    <link rel="stylesheet" href="/css/payment-style.css" />
+    <link rel="stylesheet" href="/css/success-style.css" />
     <link rel="stylesheet" href="/css/topnfooter.css" />
     <script
       src="https://kit.fontawesome.com/282fd42550.js"
@@ -64,62 +64,16 @@
 
       <section class="border">
         <div class="innerflex">
-          <h2>Payment</h2>
-          <form id="paymentform" action="/html/success.html">
-            <div class="form-row">
-              <div class="form-column">
-                <label for="card-name">Card name</label>
-                <input
-                  class="input-border"
-                  type="text"
-                  name="Payment-Information"
-                  id="card-name"
-                />
-              </div>
-              <div class="form-column">
-                <label for="cvc">CCV/CVC</label>
-                <input
-                  class="input-border"
-                  type="password"
-                  name="Payment-Information"
-                  id="cvc"
-                  maxlength="4"
-                />
-              </div>
-            </div>
-            <div class="form-row">
-              <div class="form-column">
-                <label for="Card">Card Number</label>
-                <input
-                  class="input-border"
-                  type="text"
-                  name="Payment-Information"
-                  id="Card"
-                />
-              </div>
-              <div class="form-column">
-                <label for="month-year">Month/Year</label>
-                <input
-                  class="input-border"
-                  type="month"
-                  name="Payment-Information"
-                  id="month-year"
-                  maxlength="4"
-                />
-              </div>
-            </div>
-          </form>
-
-          <div class="buttondiv">
-            <button type="submit" form="paymentform">Buy Now</button>
+          <h2>Checkout Success!</h2>
+          <div class="pdiv">
+            <p>Thank you for your purchase.</p>
+            <p>
+              You will recieve an email when your order is on its way to you.
+            </p>
           </div>
+          <p class="linkbackp">Back to the homepage</p>
+          <a href="/index.html"><i class="fa fa-long-arrow-left"></i></a>
         </div>
-        <a href="/html/checkout.html" class="arrowanchor">
-          <div class="back">
-            <p>Back</p>
-            <a href="/index.html"><i class="fa fa-long-arrow-left"></i></a>
-          </div>
-        </a>
       </section>
     </main>
 

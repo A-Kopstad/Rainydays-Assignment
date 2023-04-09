@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Harmattan&display=swap');
+
+.container{
+    height: 150px;
+    display: flex;
+    background-color: #EDE8E3;
+    margin-top: 150px;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 60px;
+    font-weight: normal;
+    color: aliceblue;
+    text-shadow: 0px 4px 4px rgb(188, 188, 188)
+}
+
+.container .fa-shopping-bag{
+    color: rgb(255, 255, 255);
+   font-size: 100px;
+}
+
+.border{
+    border: 10px solid #EDE8E3;
+    margin:100px;
+    color: #00396b;
+    font-size: 30px;
+    font-family: 'Harmattan',sans-serif;
+
+}
+.innerflex{  
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+    
+}
+.pdiv{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pdiv p{
+    margin: 5px;
+}
+
+h2{
+    font-weight: normal;
+}
+
+.linkbackp{
+    margin-bottom: 2px;
+}
+
+.linkbackp:hover{
+    color: #ECB247;
+}
+
+.fa-long-arrow-left:hover{
+    color: #ECB247;
+}

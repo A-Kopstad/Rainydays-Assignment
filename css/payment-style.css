@@ -20,7 +20,9 @@
 
 .border{
     border: 10px solid #EDE8E3;
-    margin:100px; 
+    margin:100px;
+}
+.innerflex{  
     display: flex;
     justify-content: center;
     padding-left: 30px;
@@ -81,4 +83,32 @@ button:active{
     background-color: #00396B;
     color: white;
     border: #ECB247 2px solid;
+}
+
+.arrowanchor{
+    padding-left: 60px;
+    padding-bottom: 40px;
+}
+.arrowanchor p{
+    padding-left: 60px;
+    font-size: 30px;
+    margin: 1px;
+    color: #00396B;
+}
+
+.arrowanchor p:hover{
+    color: #ECB247;
+}
+
+.form-column:hover .input-border{
+    border: #ECB247 2px solid;
+}
+
+.form-column:hover label{
+    color: #ECB247;
+}
+
+.back{
+    display: flex;
+    justify-content: center;
 }
