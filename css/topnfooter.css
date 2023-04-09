@@ -53,15 +53,12 @@ align-items: center;
 }
 
 #heart{
-width: 42px;
-height: 36px;
-max-width: 100%;
+font-size: 40px;
+color: #00396b;
 }
 
 #bag{
-    width: 51px;
-    height: 51px;
-    max-width: 100%; 
+    font-size: 40px;
 }
 
 
