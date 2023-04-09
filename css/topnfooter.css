@@ -83,28 +83,19 @@ color: #00396b;
 footer {
     background-color: #EDE8E3;
     margin-top: 200px;
+    
+}
+
+.footer-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    flex-wrap: wrap;
     align-items: center;
 }
-
 
 .rainydays-footer-img{
-    object-fit: contain;
-    max-width: 350px;
-    height: 100px;
+    height: 70px;
     padding-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-.flex-img{
-    display: flex;
-    justify-content: center;
-   
 }
 
 footer ul{
@@ -112,15 +103,16 @@ footer ul{
   padding-left: 20px;
   font-size: 25px;
   color: #00396b;
-  display: flex;
-  justify-content: center;
   gap: 30px;
   margin: 0%;
+  display: flex;
+
 }
 
 
 #news-text{
-   font-size: 25px
+   font-size: 25px;
+   margin:5px;
 }
 
 .news{
@@ -130,8 +122,14 @@ footer ul{
     flex-direction: column;
     align-items: center;
 }
+.flex-img{
+    display: flex;
+    justify-content: center;
+}
 
-
+.flex-img img{
+    width: 400px;
+}
 
 @media (max-width: 847px){
     .middle-bar{
@@ -152,5 +150,15 @@ footer ul{
         margin-right: 0%;
         padding-top: 10px;
         padding-bottom: 10px;
+    }
+
+.flex-img img{
+    width:300px;
+}
+}
+
+@media (max-width:480px){
+    .flex-img img{
+        width: 250px;
     }
 }

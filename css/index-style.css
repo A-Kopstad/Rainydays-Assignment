@@ -225,7 +225,7 @@ border: 2px solid white;
     }
 
     .fishing-img{
-        height: 550px;
+        height: 500px;
     }
 
     .fish-text-1{
@@ -235,19 +235,19 @@ border: 2px solid white;
     .fish-text-2{
         font-size: 25px;
         padding-top: 355px;
-        padding-left: 230px;
+        padding-left: 200px;
     }
 
     .white-arrow{
-        padding-top: 480px;
-        padding-left: 230px;
+        padding-top: 460px;
+        padding-left: 200px;
     }
 }
 
 @media (max-width:480px){
     
     .fishing-img{
-        height: 600px;
+        height: 400px;
         margin-left: 25px;
     }
 

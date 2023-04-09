@@ -110,5 +110,15 @@ button:active{
 
 .back{
     display: flex;
-    justify-content: center;
+    align-items: center;
+    gap:20px;
+    font-size: 30px;
+}
+
+.back:hover{
+    color: #ECB247;
+}
+
+.back:hover i{
+    color: #ECB247;
 }
