@@ -84,9 +84,6 @@ h2{
 .color2 a:hover{
     border: #00396b solid 3px;
 }
-.color2 a:active{
-    border: #00396b solid 3px;
-}
 
 .row3{
     margin-left: 130px;
@@ -101,7 +98,7 @@ display: none;
 
 .forminputs+label:hover{
     background-color: #b5b7bc;
-    transition: 0.8s;
+    transition: 0.6s;
 }
 .forminputs:checked+label{
     background-color: #b5b7bc;
@@ -135,6 +132,9 @@ form label{
     color: #00396b;
 }
 
+#addtocart:hover{
+   background-color: #f5f0eb;
+}
 .row4{
     display: flex;
     margin-left: 230px;
@@ -142,9 +142,6 @@ form label{
     gap:20px;
 }
 
-.favorite{
-   display:grid;
-}
 
 
 #span1{
@@ -159,16 +156,19 @@ form label{
     margin-bottom: 30px;
 }
 
-.fa-heart{
+.favorite .fa-heart{
     color: #fff;
     font-size: 60px;
     -webkit-text-stroke: #EDE8E3 4px;
 }
 
-.heartlink .fa-heart:visited{
+.favorite .fa-heart:hover{
     color: #EDE8E3;
+    cursor: pointer;
 }
 
-.fa-heart:hover{
+.favorite .fa-heart:active{
     color: #EDE8E3;
+    cursor: pointer;
 }
+
