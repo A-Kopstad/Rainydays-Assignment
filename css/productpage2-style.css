@@ -243,7 +243,10 @@ display: none;}
     }
 
     .row3menu{
-        display:inline-block;
+        display:inline;
+        height: 50px;
+        width: 150px;
+        font-size: 20px;
         }
 
     .overallspan{
