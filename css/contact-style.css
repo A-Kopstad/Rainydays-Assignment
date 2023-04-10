@@ -3,8 +3,8 @@
     flex-direction: column;
     border: 5px solid #EDE8E3;
     margin-top: 50px;
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: 200px;
+    margin-right: 200px;
     padding:100px;
     line-height:80px;
     color: #ECB247;
@@ -34,17 +34,16 @@
     background-color: #EDE8E3;
     margin-top: 150px;
     align-items: center;
+    justify-content: space-around;
 }
 
 .raincoat{
     border-radius: 50%;
-    object-fit: cover;
-    object-position: left top;
     width: 350px;
     height: 350px;
-    left: 60vw;
-    position: relative;
-    max-width: 100%;
+    object-fit: cover;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 h1{
@@ -53,3 +52,33 @@ h1{
     text-shadow: 2px 4px 4px rgb(187, 184, 184);
 }
 
+
+@media (max-width:1115px){
+    .container{
+        flex-direction: column-reverse;
+    }
+
+    .raincoat{
+        width: 218.75px;
+        height: 218.75px;
+    }
+
+    #contactform{
+        line-height: 50px;
+    }
+}
+
+@media (max-width:655px){
+    #contactform{
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 20px;
+        line-height: 40px;
+    }
+}
+
+@media (max-width:365px){
+    #contactform{
+        font-size: 15px;
+    }
+}
