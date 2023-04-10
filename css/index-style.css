@@ -140,7 +140,7 @@ border: 2px solid white;
 }
 
 
- #price{
+ .price{
     margin: 0;
  }
 
@@ -153,45 +153,47 @@ border: 2px solid white;
 .containerwithbag i{
     margin-right: 20px;
  }
-.fish-container-flex{
-    margin-top: 200px;
+
+ .flexy{
     display: flex;
     justify-content: center;
-}
+    margin-top: 80px;
+ }
 
-.fish-container-grid {
-    display: grid;
-}
-
-.fishing-img{
-    grid-row: 1;
-   grid-column: 1;
-}
-.fish-text-1{
-    grid-row: 1;
-    grid-column: 1;
-    padding-top: 2em;
-    padding-left: 2em;
-    color: white;
+ .textgathered{
+    display: flex;
+    flex-direction: column;
+    gap: 450px;
+ }
+ 
+.background-flex{
+    background-image: url(../images/fishing.png);
+    height: 774px;
+    width: 526px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     font-size: 30px;
-    width: 200px;
-}
-
-.fish-text-2{
-    grid-row: 1;
-    grid-column: 1;
-    padding-top: 550px;
-    padding-left: 350px;
-    font-size: 25px;
-    width: 150px;
     color: white;
 }
 
-.white-arrow {
-    grid-row: 1;
-    grid-column: 1;
-    padding-top: 680px;
-    padding-left: 350px;
+.background-flex a{
+    color: #fff;
+}
+
+.background-flex i{
+    margin-left: 350px;
+}
+.textcontainer1{
+    font-size: 30px;
+    color: #ffffff;
+}
+
+
+#p2{
+    width: 150px;
+    color:white;
+    margin-left: 280px;
 }
 
    @media (max-width: 847px){
@@ -200,7 +202,7 @@ border: 2px solid white;
         height: 218.75px;
     }
     .yellow-text{
-        width: 300px;
+        width: 280px;
         height: 100px;
     }
     h1{
@@ -224,48 +226,33 @@ border: 2px solid white;
     height: 178.2px;
     }
 
-    .fishing-img{
-        height: 500px;
-    }
-
-    .fish-text-1{
-        font-size: 25px;
-    }
-
-    .fish-text-2{
-        font-size: 25px;
-        padding-top: 355px;
-        padding-left: 200px;
-    }
-
-    .white-arrow{
-        padding-top: 460px;
-        padding-left: 200px;
-    }
+  
 }
 
-@media (max-width:480px){
+@media (max-width: 540px){
+    .background-flex{
+        height: 387px;
+        width: 263px;
+        background-size: 263px;
+    }
+
+    .background-flex i{
+        margin-left: 200px;
+     }
     
-    .fishing-img{
-        height: 400px;
-        margin-left: 25px;
+    .textgathered{
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        gap: 150px;
     }
 
-    .fish-text-1{
-        font-size: 25px;
-        padding-left: 80px;
-        padding-top: 20px;
+    #p1{
+        margin-left: 20px;
     }
-    .fish-text-2{
-        font-size: 25px;
-        padding-top: 400px;
-        padding-left: 290px;
-    }
-
-    .white-arrow{
-        padding-top:530px;
-        padding-left: 293px;
+    #p2{
+        margin-left: 150px;
+        width: 100px
     }
 }
-
 @import url('https://fonts.googleapis.com/css2?family=Harmattan&display=swap');
