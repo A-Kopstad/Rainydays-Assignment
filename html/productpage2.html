@@ -40,8 +40,10 @@
           </form>
 
           <div class="icons">
-            <i id="heart" class="fa fa-heart" aria-hidden="true"></i>            
-            <a href="/html/checkout.html"><i id="bag" class="fa fa-shopping-bag"></i></a>
+            <i id="heart" class="fa fa-heart" aria-hidden="true"></i>
+            <a href="/html/checkout.html"
+              ><i id="bag" class="fa fa-shopping-bag"></i
+            ></a>
           </div>
         </div>
         <div class="underline"></div>
@@ -84,10 +86,26 @@
                 <a href="/html/productpage2.html"><span id="blue"></span></a>
               </div>
             </div>
+         
             <form class="row3" action="/html/mens.html">
               <span class="overallspan">
                 <span id="span1">
-                  <input class="forminputs"
+                  <select class="row3menu">
+                    <option value="Sizes">Choose Size:</option>
+                    <option value="Extra-Small">
+                      Extra Small
+                    </option>
+                    <option value="Small">
+                      Small
+                    </option>
+                    <option value="Medium">
+                      Medium
+                    </option>
+                    <option value="Large">Large</option>
+                    <option value="Extra-Large">Extra Large</option>
+                  </select>
+                  <input
+                    class="forminputs"
                     type="radio"
                     value="xs"
                     id="xs"
@@ -95,7 +113,13 @@
                     checked="checked"
                   />
                   <label for="xs">xs</label>
-                  <input class="forminputs" type="radio" value="s" id="s" name="size" />
+                  <input
+                    class="forminputs"
+                    type="radio"
+                    value="s"
+                    id="s"
+                    name="size"
+                  />
                   <label for="s">s</label>
                   <input class="forminputs" type="radio" id="m" name="size" />
                   <label for="m">m</label>
@@ -104,14 +128,14 @@
                   <input class="forminputs" type="radio" id="xl" name="size" />
                   <label for="xl">xl</label>
                 </span>
-               <div class="cartfavorite">
-                <span id="cart-span">
-                  <button id="addtocart">Add to cart</button>
-                </span>
-                <div class="favorite">
-          <i class="fa fa-heart" aria-hidden="true"></i>         
+                <div class="cartfavorite">
+                  <span id="cart-span">
+                    <button id="addtocart">Add to cart</button>
+                  </span>
+                  <div class="favorite">
+                    <i class="fa fa-heart" aria-hidden="true"></i>
+                  </div>
                 </div>
-              </div>
               </span>
             </form>
           </div>
@@ -128,7 +152,7 @@
             /></a>
           </div>
         </div>
-  
+
         <div class="about-contact">
           <ul>
             <li>
