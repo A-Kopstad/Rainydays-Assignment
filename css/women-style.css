@@ -3,18 +3,17 @@
     background-color: #EDE8E3;
     margin-top: 150px;
     align-items: center;
+    justify-content: space-around;
 }
 
 .raincoat{
     border-radius: 50%;
-    object-fit: cover;
     width: 350px;
     height: 350px;
-    left: 60vw;
-    position: relative;
-    max-width: 100%;
+    object-fit: cover;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-
 .inner-container{
     display: flex;
     flex-direction: column;
@@ -58,7 +57,6 @@ select{
 .product-container-outer{
     display: flex;
     justify-content: center;
-    overflow-x: auto;
     }
     
     .product-container-inner{
@@ -67,8 +65,8 @@ select{
     padding: 50px;
     width: 800px;
     border-radius: 5px;
-    justify-content: space-between;
     flex-direction: column;
+    justify-content: center;
     }
 
 
@@ -77,18 +75,18 @@ select{
     justify-content: center;
     border-radius: 5px;
     border: solid #EDE8E3 5px;
-    max-width: 300px;
-    overlay:
+    width:300px;
+    align-items: center;
 }
 .jacket {
-    width: 341.5px;
     height: 271px;
-    object-fit: contain;
 }
 
 .overlay-container{
     position: relative;
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -190,3 +188,60 @@ gap: 20px;
 margin-top: 20px;
 }
 
+.row3{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+@media (max-width:760px){
+    .container{
+        flex-direction: column-reverse;
+    }
+
+    .raincoat{
+        width: 218.75px;
+        height: 218.75px;
+    }
+
+    .jacket{
+        height: 200px;
+    }
+
+    .jacket-container{
+        margin:10px;
+        min-width:192px;
+        min-height: 266px;
+    }
+
+    .product-container-outer{
+        margin: 60px;
+    }
+
+    .product-container-inner{
+        width: 400px;
+    }
+}
+
+@media (max-width:542px){
+    .product-container-inner{
+        padding: 10px;
+    }
+    .row1{
+        flex-wrap: wrap;
+    }
+
+    .row2{
+        flex-wrap: wrap;
+    }
+
+    .row3{
+        flex-wrap: wrap;
+    }
+
+    .jacket-container{
+        max-height: 213px;
+        max-width: 213px;
+    }
+}
