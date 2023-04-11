@@ -78,12 +78,104 @@ select{
     border-radius: 5px;
     border: solid #EDE8E3 5px;
     max-width: 300px;
+    overlay:
 }
 .jacket {
     width: 341.5px;
     height: 271px;
     object-fit: contain;
 }
+
+.overlay-container{
+    position: relative;
+    width: 100%;
+}
+
+
+.overlay{
+    position: absolute; 
+    bottom: 0; 
+    background: rgba(237, 232, 227, 0.7);
+    color: white; 
+    width: 100%;
+    transition: .8s ;
+    opacity:0;
+    font-size: 25px;
+    height:100px;
+    text-align: center;
+    -webkit-text-stroke: #00396b 1px;
+    font-family: 'Harmattan',sans-serif;
+    line-height: 1px;
+    display: flex;
+    flex-direction: column;
+}
+
+.overlay-container:hover .overlay{
+    opacity: 1;
+ }
+
+ .containerwithbag{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+.containerwithbag i{
+    margin-right: 20px;
+ }
+
+ .color1{
+    width: 27px;
+    height: 29px;
+    background: #D6C5CB;
+    border: 2px solid #FFFFFF;
+ }
+
+ .color2{
+width: 27px;
+height: 29px;
+background: #606F84;
+border: 2px solid white;
+ }
+
+.color3{
+    width: 27px;
+    height: 29px;
+    background: #CFA92A;
+    border:2px solid white;
+}
+.color4{
+    width: 27px;
+    height: 29px;
+    background: #00396B;
+    border:2px solid white;
+}
+    
+.color5{
+    width: 27px;
+    height: 29px;
+    background: #71363C;
+    border:2px solid white;
+}
+
+.color6{
+        width: 27px;
+            height: 29px;
+            background: #5610AE;
+            border:2px solid white;
+}
+
+
+ .price{
+    margin: 0;
+ }
+
+ .color12_p_container{
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    gap: 5px;
+ }
 
 .row1{
    display: flex;

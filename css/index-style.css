@@ -76,7 +76,7 @@ h2{
 }
 .overlay {
     position: absolute; 
-    bottom: 0; 
+    bottom: 0;
     background: rgba(237, 232, 227, 0.7);
     color: white; 
     width: 100%;
@@ -248,10 +248,10 @@ border: 2px solid white;
     }
 
     #p1{
-        margin-left: 20px;
+        margin-left: min (20px);
     }
     #p2{
-        margin-left: 150px;
+        margin-left: min (150px);
         width: 100px
     }
 }

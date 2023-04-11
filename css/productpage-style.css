@@ -30,6 +30,7 @@ h2{
 .row1{
  display: flex;
  justify-content: space-around;
+ margin: 20px;
 }  
 
 .jacket-container{
@@ -41,7 +42,7 @@ h2{
 }
 
 #text{
-    margin-top: 105px;
+    margin-top: 50px;
     font-size:30px;
     max-width: 350px;
     line-height: 70px;
@@ -84,6 +85,7 @@ h2{
 .color2 a:hover{
     border: #00396b solid 3px;
 }
+
 
 .row3{
     margin-left: 130px;
@@ -172,3 +174,87 @@ form label{
     cursor: pointer;
 }
 
+.row3menu{
+display: none;}
+
+@media (max-width:980px){
+    
+    #text{
+    padding:0;
+   font-size: 24px;
+    }
+
+    .row1{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .row2{
+        justify-content: center;
+        margin: 0;
+    }
+
+    .row3{
+        margin:0;
+        justify-content: center;
+        padding-top: 40px;
+    }
+}
+
+@media (max-width:570px){
+    .jacket{
+        height: 300px;
+        width: 350px;
+    }
+
+    .jacket-container{
+        height:350px;
+        margin:10px
+    }
+
+    .product-container-outer{
+        margin: 60px;
+
+    }
+}
+
+@media (max-width:457px){
+    .jacket{
+        height: 200px;
+        width: 250px;
+    }
+
+    .jacket-container{
+        height: 250px;
+        margin-top: 10px;;
+    }
+
+    #text{
+        max-width: 244px;
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    form label{
+        font-size: 10px;
+        padding:5px 5px;
+        align-items: center;
+        display: none;
+    }
+
+    .row3menu{
+        display:inline;
+        height: 50px;
+        width: 150px;
+        font-size: 20px;
+        }
+
+    .overallspan{
+        gap:10px;
+        align-items: center;
+    }
+
+    .row1{
+    margin: 5px;
+    }
+}
