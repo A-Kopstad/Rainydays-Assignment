@@ -77,27 +77,13 @@ button{
 button:hover{
     background-color: #ECB247;
     color: white;
+    cursor: pointer;
 }
 
 button:active{
     background-color: #00396B;
     color: white;
     border: #ECB247 2px solid;
-}
-
-.arrowanchor{
-    padding-left: 60px;
-    padding-bottom: 40px;
-}
-.arrowanchor p{
-    padding-left: 60px;
-    font-size: 30px;
-    margin: 1px;
-    color: #00396B;
-}
-
-.arrowanchor p:hover{
-    color: #ECB247;
 }
 
 .form-column:hover .input-border{
@@ -113,12 +99,16 @@ button:active{
     align-items: center;
     gap:20px;
     font-size: 30px;
+    width: 130px;
+    margin-left: 40px;
 }
 
 .back:hover{
     color: #ECB247;
+    cursor: pointer;
 }
 
-.back:hover i{
+.back:active{
     color: #ECB247;
+    -webkit-text-stroke: #00396B 1px;
 }

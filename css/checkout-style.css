@@ -9,11 +9,11 @@
     justify-content: space-around;
     font-size: 60px;
     font-family: 'Harmattan', sans-serif;
-    color: aliceblue;
+    color: #fff;
     text-shadow: 0px 4px 4px rgb(188, 188, 188)
 }
 .container .fa-shopping-bag{
-    color: rgb(255, 255, 255);
+    color: #fff;
    font-size: 100px;
 }
 
@@ -44,7 +44,6 @@ h2{
   display: flex;
   max-width: 500px;
   flex-wrap: wrap;
-  justify-content: space-between;
   gap: 20px;
   font-family: 'Harmattan',sans-serif;
   padding-bottom: 200px;
@@ -82,7 +81,7 @@ h2{
 .flexbox2{
     display: flex;
     flex-direction: column;
-    align-items;: center
+    align-items: center;
 }
 
 .innerflex{
@@ -111,3 +110,95 @@ button{
     height: 30px;
 }
 
+button:hover{
+    background-color: #ECB247;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px;
+    border: #00396B 1px solid;
+}
+
+button:active{
+    background-color: #00396B;
+    color: white;
+    border: #ECB247 2px solid;
+}
+
+.form-row:hover .input-border{
+    border: #ECB247 2px solid;
+}
+
+.form-row:hover label{
+    color: #ECB247;
+}
+
+@media (max-width:1248px){
+    #checkoutform{
+        flex-direction: column;
+        padding-bottom: 30px;
+        padding-left: 0;
+    }
+    
+    .border{
+        margin:20px;
+        margin-top: 100px;
+        justify-content: center;
+        padding-left: 0;
+        padding-right: 0;
+        flex-direction: column;
+    }
+
+    .innerflex{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .columntext{
+        margin-left: 0;
+        line-height: 6px;
+        display: block;
+        
+    }
+
+    .buttondiv{
+        margin-top: 34px;
+        margin-bottom: 34px;
+        display: block;
+    }
+
+    .container{
+        font-size: 40px;
+    }
+    .container .fa-shopping-bag{
+        font-size: 76px;
+    }
+}
+
+@media (max-width:434px){
+    #checkoutform{
+        font-size: 25px;
+    }
+
+    .jacket-container{
+        width: 200px;
+        height: 200px;
+        display:flex;
+        justify-content: center
+    }
+
+    h2{
+        font-size: 35px;
+    }
+
+    .columntext{
+        font-size: 25px;
+    }
+
+    .container{
+        font-size: 40px;
+    }
+    .container .fa-shopping-bag{
+        font-size: 50px;
+    }
+}
