@@ -9,12 +9,12 @@
     justify-content: space-around;
     font-size: 60px;
     font-weight: normal;
-    color: aliceblue;
+    color: #fff;
     text-shadow: 0px 4px 4px rgb(188, 188, 188)
 }
 
 .container .fa-shopping-bag{
-    color: rgb(255, 255, 255);
+    color: #fff;
    font-size: 100px;
 }
 
@@ -111,4 +111,60 @@ button:active{
 .back:active{
     color: #ECB247;
     -webkit-text-stroke: #00396B 1px;
+}
+
+@media (max-width:704px){
+    .input-border{
+        padding-left: 0;
+    }
+
+    .form-row{
+        width: 150px;
+    }
+
+    #paymentform{
+        gap: 15px;
+        padding-bottom: 35px;
+        flex-direction: column;
+    }
+
+    .buttondiv {
+        padding-bottom: 0;
+        }
+
+    .back {
+        gap: 11px;
+        font-size: 26px;
+    }
+
+    .container{
+        font-size: 45px;
+
+    }
+
+    .container .fa-shopping-bag{
+        font-size: 83px;
+    }
+
+    .border{
+        margin:35px;
+    }
+}
+
+@media (max-width:415px){
+.container{
+    font-size: 32px;
+}
+
+.container .fa-shopping-bag{
+    font-size: 50px;
+}
+
+.border{
+    margin-top: 100px;
+}
+
+.container{
+    margin-top: 100px;
+}
 }
