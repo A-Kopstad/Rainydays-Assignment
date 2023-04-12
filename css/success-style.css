@@ -9,7 +9,7 @@
     justify-content: space-around;
     font-size: 60px;
     font-weight: normal;
-    color: aliceblue;
+    color: #fff;
     text-shadow: 0px 4px 4px rgb(188, 188, 188)
 }
 
@@ -60,4 +60,31 @@ h2{
 
 .fa-long-arrow-left:hover{
     color: #ECB247;
+}
+
+
+@media (max-width:898px){
+    .container{
+        justify-content: center;
+        font-size: 35px;
+        flex-direction: column;
+        object-fit: contain;
+    }
+
+    .container .fa-shopping-bag{
+        font-size: 55px;
+    }
+
+    h1{
+        margin:0;
+
+    }
+}
+
+@media (max-width: 572px){
+    .border{
+        margin: 15px;
+        margin-top: 40px;
+        font-size: 20px;
+    }
 }
