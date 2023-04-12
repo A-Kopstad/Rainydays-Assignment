@@ -27,7 +27,7 @@ justify-content: space-around;
 align-items: center;
 }
 
- #logo{
+ .logo{
     width: 193px;
     height: 104px;
     max-width: 100%;
@@ -52,12 +52,12 @@ align-items: center;
     gap: 1em;
 }
 
-#heart{
+.heart{
 font-size: 40px;
 color: #00396b;
 }
 
-#bag{
+.bag{
     font-size: 40px;
 }
 
@@ -110,7 +110,7 @@ footer ul{
 }
 
 
-#news-text{
+.news-text{
    font-size: 25px;
    margin:5px;
 }
@@ -141,7 +141,7 @@ footer ul{
         padding-left: 0%;
     }
 
-    #logo{
+    .logo{
         margin-left: 0%;
         margin-right: 0%;
     }

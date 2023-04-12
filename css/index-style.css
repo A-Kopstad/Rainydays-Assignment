@@ -190,7 +190,7 @@ border: 2px solid white;
 }
 
 
-#p2{
+.p2{
     width: 150px;
     color:white;
     margin-left: 280px;
@@ -255,11 +255,11 @@ border: 2px solid white;
         max-width: 263px;
     }
 
-    #p1{
+    .p1{
         margin-left: 15px;
     }
 
-    #p2{
+    .p2{
         margin-left: 153px;
         width: 135px;
     }
