@@ -247,4 +247,8 @@ margin-top: 20px;
         max-height: 213px;
         max-width: 213px;
     }
+
+    .overlay{
+        font-size: 20px;
+    }
 }
