@@ -30,16 +30,15 @@ align-items: center;
  .logo{
     width: 193px;
     height: 104px;
-    max-width: 100%;
     margin-left: 50px;
-    margin-right: 150px;
+    margin-right: 35px;
     
 }
 
 .middle-bar ul{
     font-size: 30px;
     display:flex;
-    gap: 60px;
+    gap: 24px;
     list-style-type: none;
     position: relative;
     right:25px;
@@ -48,16 +47,16 @@ align-items: center;
 .icons{
     display: flex;
     align-items: center;
-    margin-right: 3em;
-    gap: 1em;
+    margin-right: 40px;
+    gap: 16px;
 }
 
-.heart{
+.fa-heart{
 font-size: 40px;
 color: #00396b;
 }
 
-.bag{
+.fa-shopping-bag{
     font-size: 40px;
 }
 
@@ -131,7 +130,7 @@ footer ul{
     width: 400px;
 }
 
-@media (max-width: 847px){
+@media (max-width: 1012px){
     .middle-bar{
         flex-direction: column;
     }
