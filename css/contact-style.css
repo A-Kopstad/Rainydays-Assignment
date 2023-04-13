@@ -1,4 +1,4 @@
-#contactform{
+.contactform{
     display: flex;
     flex-direction: column;
     border: 5px solid #EDE8E3;
@@ -19,9 +19,9 @@
 }
 
 .inputborder-ym{
-    border-radius: 1em;
+    border-radius: 15px;
     border:#ECB247 solid thin;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
     padding-top: 10px;
     display: flex;
 }
@@ -63,22 +63,22 @@ h1{
         height: 218.75px;
     }
 
-    #contactform{
+    .contactform{
         line-height: 50px;
     }
 }
 
 @media (max-width:655px){
-    #contactform{
-        margin-left: 20px;
-        margin-right: 20px;
+    .contactform{
+        margin-left: 50px;
+        margin-right: 50px;
         font-size: 20px;
         line-height: 40px;
     }
 }
 
 @media (max-width:365px){
-    #contactform{
-        font-size: 15px;
+    .contactform{
+        font-size: 20px;
     }
 }
