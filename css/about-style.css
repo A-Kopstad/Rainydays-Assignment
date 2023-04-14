@@ -39,15 +39,8 @@ h1{
         line-height: 60px;
     }
     
-/* sett inn i header/footer. la til fontsiz over til em og bedre strls
-    .news p {
-        font-size: .8em;
-        cursor: pointer;
-    }
-    .news p:hover{
-        text-decoration: underline;
-    }
-    */
+
+   
 
     @media (max-width:1115px){
         .container{

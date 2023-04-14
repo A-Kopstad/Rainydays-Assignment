@@ -21,6 +21,10 @@ padding-left: 10em;
 .top-bar li{
 font-weight: bold;
 }
+.top-bar li:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+}
 
 .middle-bar{
 display: flex;
@@ -40,10 +44,14 @@ align-items: center;
 .middle-bar ul{
     font-size: 30px;
     display:flex;
-    gap: 24px;
+    gap: 50px;
     list-style-type: none;
     position: relative;
     right:25px;
+}
+.middle-bar li:hover {
+    transform: scale(1.1);
+    text-decoration:  underline;
 }
 
 .icons{
@@ -57,9 +65,17 @@ align-items: center;
 font-size: 40px;
 color: #00396b;
 }
+.fa-heart:hover {
+    transform: scale(1.1);
+    color: #0a5495;
+}
 
 .fa-shopping-bag{
     font-size: 40px;
+}
+.fa-shopping-bag:hover {
+    transform: scale(1.1);
+    color: #0a5495;
 }
 
 
@@ -123,6 +139,14 @@ footer ul{
     flex-direction: column;
     align-items: center;
 }
+.news p {
+    cursor: pointer;
+}
+.news p:hover {
+    text-decoration: underline;
+}
+
+
 .flex-img{
     display: flex;
     justify-content: center;
