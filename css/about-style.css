@@ -35,9 +35,19 @@ h1{
 
     .border p{
         max-width: 500px;
-        font-size: 30px;
+        font-size: 1.6em;
         line-height: 60px;
     }
+    
+/* sett inn i header/footer. la til fontsiz over til em og bedre strls
+    .news p {
+        font-size: .8em;
+        cursor: pointer;
+    }
+    .news p:hover{
+        text-decoration: underline;
+    }
+    */
 
     @media (max-width:1115px){
         .container{

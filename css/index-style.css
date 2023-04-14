@@ -33,13 +33,13 @@ a{ text-decoration: none; color:#00396b; }
 
 h1{
     max-width: 450px;
-    font-size: 50px;
+    font-size: 40px;
     color:white ;
     text-shadow: 2px 4px 4px rgb(187, 184, 184);
     top: 100px;
 }
 
-.newin{
+h2{
     margin-top: 5em;
     padding-left: 9.5vw;
     font-size: 40px;
@@ -82,7 +82,7 @@ h1{
     width: 100%;
     transition: .8s ;
     opacity:0;
-    font-size: 20px;
+    font-size: 25px;
     height:100px;
     text-align: center;
     -webkit-text-stroke: #00396b 1px;
@@ -163,8 +163,9 @@ border: 2px solid white;
  .textgathered{
     display: flex;
     flex-direction: column;
-    gap: 345px;
  }
+ 
+ 
  
 .background-flex{
     background-image: url(../images/fishing.png);
@@ -175,8 +176,6 @@ border: 2px solid white;
     flex-direction: column;
     font-size: 30px;
     color: white;
-    text-shadow: 1px 2px rgb(0, 0, 0);
-    justify-content: space-around
 }
 
 .background-flex a{
@@ -184,7 +183,8 @@ border: 2px solid white;
 }
 
 .background-flex i{
-    margin-left: 350px;
+    margin-left:200px;
+    font-size: 50px;
 }
 .textcontainer1{
     font-size: 30px;
@@ -192,13 +192,30 @@ border: 2px solid white;
 }
 
 
+.p1 {
+    max-width: 300px;
+    padding: 20px;
+    font-size: 1em;
+    text-align: center;
+    background-color: rgba(237, 232, 227, .1)
+}
+
+
 .p2{
     width: 150px;
     color:white;
     margin-left: 280px;
+    margin-top: 300px;
+    margin-bottom: 0;
+    background-color: rgba(237, 232, 227, .1);
+    padding: 15px;
+
+    
 }
 
-   @media (max-width: 847px){
+
+
+   @media (max-width: 1352px){
     .raincoat{
         width: 218.75px;
         height: 218.75px;
@@ -228,6 +245,9 @@ border: 2px solid white;
     height: 178.2px;
     }
 
+    .inner-container{
+        align-items: center;
+    }
 }
 
 @media (max-width: 540px){
@@ -276,4 +296,5 @@ border: 2px solid white;
     }
 }
 @import url('https://fonts.googleapis.com/css2?family=Harmattan&display=swap');
+
 
