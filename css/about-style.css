@@ -4,6 +4,7 @@
     margin-top: 150px;
     align-items: center;
     justify-content: space-around;
+
 }
 
 .raincoat{
@@ -21,6 +22,7 @@ h1{
     color:white ;
     text-shadow: 2px 4px 4px rgb(187, 184, 184);
     top: 100px;
+    background: rgba(237, 232, 227, 0.1);
 }
 
 .border{
