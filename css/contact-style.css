@@ -12,6 +12,7 @@
 }
 .contactform label {
     min-width: 154px;
+    background-color: rgba(255, 251, 244, 0.1);
 }
 
 .form-border{
