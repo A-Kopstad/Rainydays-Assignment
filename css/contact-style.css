@@ -1,21 +1,30 @@
 .contactform{
     display: flex;
     flex-direction: column;
-    border: 5px solid #EDE8E3;
-    margin-top: 50px;
-    margin-left: 200px;
-    margin-right: 200px;
-    padding:100px;
-    line-height:80px;
+    padding: 100px;
+    line-height:50px;
     color: #ECB247;
     align-items: center;
-    overflow: auto;
+    overflow:hidden;
     font-size: 25px;
+    border: 5px solid #EDE8E3;
+    flex-shrink: 1;
+}
+.contactform label {
+    min-width: 154px;
 }
 
+.form-border{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
 .inputborder{
     border-radius: 2em;
     border: #ECB247 solid thin;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
 }
 
 .inputborder-ym{
@@ -24,10 +33,30 @@
     padding-bottom: 80px;
     padding-top: 10px;
     display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
+
 
 #submit{
     margin-top: 20px;
+    width: 250px;
+    height: 50px;
+    font-size: 25px;
+    color: #00396B;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+#submit:hover {
+    background-color: #ECB247;
+    color: white;
+    cursor: pointer;
+}
+
+#submit:active {
+    background-color: #00396B;
+    color: white;
+    border: #ECB247 2px solid;
 }
 .container{
     display: flex;
@@ -52,8 +81,7 @@ h1{
     text-shadow: 2px 4px 4px rgb(187, 184, 184);
 }
 
-
-@media (max-width:1115px){
+@media (max-width:1000px){
     .container{
         flex-direction: column-reverse;
     }
@@ -64,21 +92,12 @@ h1{
     }
 
     .contactform{
-        line-height: 50px;
-    }
-}
-
-@media (max-width:655px){
-    .contactform{
-        margin-left: 50px;
-        margin-right: 50px;
-        font-size: 20px;
         line-height: 40px;
     }
-}
 
-@media (max-width:365px){
-    .contactform{
-        font-size: 20px;
+    .form-border{
+        margin-left: 15px;
+        margin-right: 15px;
     }
+    
 }

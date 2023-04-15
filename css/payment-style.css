@@ -60,14 +60,12 @@ h2{
 }
 
 button{
-    width: 120px;
-    height: 30px;
-    background-color: white;
-    border: #00396B 2px solid;
-    border-radius: 10px;
-    font-size: 20px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    width: 250px;
+    height: 50px;
+    font-size: 25px;
     color: #00396B;
+    margin-top: 50px;
+    border-radius: 10px;
 }
 
 .buttondiv{
