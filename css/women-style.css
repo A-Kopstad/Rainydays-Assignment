@@ -144,31 +144,34 @@ border: 2px solid white;
 .color4{
     width: 27px;
     height: 29px;
-    background: #606F84;
+    background: #018f7a;
     border:2px solid white;
 }
     
 .color5{
     width: 27px;
     height: 29px;
-    background: #1b9879;
+    background: #090d98;
     border:2px solid white;
 }
 
 .color6{
         width: 27px;
             height: 29px;
-            background: #29006b;
+            background: #ecc826;
             border:2px solid white;
 }
 
 .color7{
     width:27px;
     height: 29px;
-    background-color: #606F84;
+    background-color: #2e8a51;
     border: 2px solid white;
 }
 
+.color8{
+    
+}
  .price{
     margin: 0;
  }
