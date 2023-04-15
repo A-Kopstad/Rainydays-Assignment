@@ -79,6 +79,7 @@ h1{
     font-size: 50px;
     color: white;
     text-shadow: 2px 4px 4px rgb(187, 184, 184);
+    background-color: rgba(237, 232, 227, .1);
 }
 
 @media (max-width:1000px){
