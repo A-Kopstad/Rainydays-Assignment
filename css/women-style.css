@@ -138,30 +138,36 @@ border: 2px solid white;
 .color3{
     width: 27px;
     height: 29px;
-    background: #CFA92A;
+    background: #a21e1e;
     border:2px solid white;
 }
 .color4{
     width: 27px;
     height: 29px;
-    background: #00396B;
+    background: #606F84;
     border:2px solid white;
 }
     
 .color5{
     width: 27px;
     height: 29px;
-    background: #71363C;
+    background: #1b9879;
     border:2px solid white;
 }
 
 .color6{
         width: 27px;
             height: 29px;
-            background: #5610AE;
+            background: #29006b;
             border:2px solid white;
 }
 
+.color7{
+    width:27px;
+    height: 29px;
+    background-color: #606F84;
+    border: 2px solid white;
+}
 
  .price{
     margin: 0;
