@@ -161,6 +161,7 @@ button:active{
 
 button{
     width:150px;
+    font-size: 15px;
 }
 
 }
