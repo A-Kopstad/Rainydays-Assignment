@@ -6,7 +6,7 @@
     margin-top: 150px;
     align-items: center;
     justify-content: space-around;
-    font-size: 60px;
+    font-size: 30px;
     font-weight: normal;
     color: #fff;
     text-shadow: 0px 4px 4px rgb(188, 188, 188)
@@ -14,15 +14,14 @@
 
 .container .fa-shopping-bag{
     color: rgb(255, 255, 255);
-   font-size: 100px;
+   font-size: 70px;
 }
 
 .border{
     border: 10px solid #EDE8E3;
     margin:100px;
     color: #00396b;
-    font-size: 30px;
-    font-family: 'Harmattan',sans-serif;
+    font-size: 25px;
 }
 
 .innerflex{  
@@ -80,8 +79,14 @@ h2{
 
 @media (max-width: 572px){
     .border{
-        margin: 15px;
-        margin-top: 40px;
+        margin: 20px;
+        margin-top: 70px;
         font-size: 20px;
     }
+
+    .container{
+        font-size: 20px;
+        margin-top: 50px;
+    }
+
 }
