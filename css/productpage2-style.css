@@ -41,7 +41,7 @@ h2{
     height: 600px;
 }
 
-#text{
+.text{
     margin-top: 50px;
     font-size:30px;
     max-width: 350px;
@@ -86,7 +86,6 @@ h2{
     border: #00396b solid 3px;
 }
 
-
 .row3{
     margin-left: 130px;
     margin-top: 50px;
@@ -118,13 +117,13 @@ form label{
     flex-direction: row;
 }
 
-.overallspan{
+.overalldiv{
     display:flex;
     flex-direction: column;
     gap:60px
 }
 
-#addtocart{
+.addtocart{
     height: 60px;
     width:130px;
     font-size: 20px;
@@ -134,9 +133,10 @@ form label{
     color: #00396b;
 }
 
-#addtocart:hover{
+.addtocart:hover{
    background-color: #f5f0eb;
 }
+
 .row4{
     display: flex;
     margin-left: 230px;
@@ -146,7 +146,7 @@ form label{
 
 
 
-#span1{
+.div1{
     display: flex;
 }
 
@@ -175,13 +175,14 @@ form label{
 }
 
 .row3menu{
-display: none;}
+display: none;
+}
 
 @media (max-width:980px){
     
     #text{
-    padding:0;
-   font-size: 24px;
+        padding:0;
+        font-size: 24px;
     }
 
     .row1{
@@ -214,11 +215,15 @@ display: none;}
 
     .product-container-outer{
         margin: 60px;
-
     }
 }
 
 @media (max-width:457px){
+    .product-container-inner{
+        border:4px solid #EDE8E3;
+        margin: 0;
+    }
+    
     .jacket{
         height: 200px;
         width: 250px;
@@ -229,7 +234,7 @@ display: none;}
         margin-top: 10px;;
     }
 
-    #text{
+    .text{
         max-width: 244px;
         font-size: 22px;
         line-height: 30px;
@@ -247,9 +252,9 @@ display: none;}
         height: 50px;
         width: 150px;
         font-size: 20px;
-        }
+    }
 
-    .overallspan{
+    .overalldiv{
         gap:10px;
         align-items: center;
     }

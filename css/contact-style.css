@@ -1,3 +1,23 @@
+.container{
+    display: flex;
+    background-color: #EDE8E3;
+    margin-top: 150px;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 4px 4px rgb(187, 184, 184);
+}
+
+.raincoat{
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .contactform{
     display: flex;
     flex-direction: column;
@@ -10,6 +30,7 @@
     border: 5px solid #EDE8E3;
     flex-shrink: 1;
 }
+
 .contactform label {
     min-width: 154px;
     background-color: rgba(255, 251, 244, 0.1);
@@ -20,12 +41,12 @@
     margin-top: 50px;
     justify-content: center;
 }
+
 .inputborder{
     border-radius: 2em;
     border: #ECB247 solid thin;
     margin-top: 15px;
     margin-bottom: 15px;
-    
 }
 
 .inputborder-ym{
@@ -38,7 +59,6 @@
     margin-bottom: 15px;
 }
 
-
 .submit{
     margin-top: 20px;
     width: 250px;
@@ -48,6 +68,7 @@
     margin-top: 50px;
     border-radius: 10px;
 }
+
 .submit:hover {
     background-color: #ECB247;
     color: white;
@@ -59,33 +80,11 @@
     color: white;
     border: #ECB247 2px solid;
 }
-.container{
-    display: flex;
-    background-color: #EDE8E3;
-    margin-top: 150px;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.raincoat{
-    border-radius: 50%;
-    width: 350px;
-    height: 350px;
-    object-fit: cover;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-h1{
-    font-size: 50px;
-    color: white;
-    text-shadow: 2px 4px 4px rgb(187, 184, 184);
-    background-color: rgba(237, 232, 227, .1);
-}
 
 @media (max-width:1000px){
     .container{
         flex-direction: column-reverse;
+        font-size: 30px;
     }
 
     .raincoat{

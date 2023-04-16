@@ -23,8 +23,8 @@
     color: #00396b;
     font-size: 30px;
     font-family: 'Harmattan',sans-serif;
-
 }
+
 .innerflex{  
     display: flex;
     justify-content: center;
@@ -33,8 +33,8 @@
     flex-direction: column;
     align-items: center;
     padding-bottom: 30px;
-    
 }
+
 .pdiv{
     display: flex;
     align-items: center;
@@ -61,7 +61,6 @@ h2{
     color: #ECB247;
 }
 
-
 @media (max-width:898px){
     .container{
         justify-content: center;
@@ -76,7 +75,6 @@ h2{
 
     h1{
         margin:0;
-
     }
 }
 

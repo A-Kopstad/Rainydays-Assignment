@@ -17,6 +17,7 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
 .inner-container{
     display: flex;
     flex-direction: column;
@@ -66,7 +67,7 @@ select{
     }
 
 
-.jacket-container {
+.jacket-container{
     display: flex;
     justify-content: center;
     border-radius: 5px;
@@ -74,7 +75,8 @@ select{
     width:300px;
     align-items: center;
 }
-.jacket {
+
+.jacket{
     height: 271px;
 }
 
@@ -98,7 +100,6 @@ select{
     height:100px;
     text-align: center;
     -webkit-text-stroke: #00396b 1px;
-    font-family: 'Harmattan',sans-serif;
     line-height: 1px;
     display: flex;
     flex-direction: column;

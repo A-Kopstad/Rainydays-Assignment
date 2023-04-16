@@ -16,7 +16,6 @@ a{ text-decoration: none; color:#00396b; }
     width: 350px;
     height: 350px;
     object-fit: cover;
-
 }
 
 .inner-container{
@@ -46,13 +45,14 @@ h2{
     font-size: 40px;
     color: #00396b;
 }
+
 .newin-products{
     display: flex;
     justify-content: center;
     overflow-x: auto;
     }
     
-    .newin-products2 {
+    .newin-products2{
     display: flex;
     border: 20px solid #EDE8E3;
     padding: 50px;
@@ -63,11 +63,12 @@ h2{
     }
 
 
-.jacket-container {
+.jacket-container{
     border-radius: 5px;
     border: solid #EDE8E3 5px;
 }
-.jacket {
+
+.jacket{
     width: 325px;
     height: 250px;
 }
@@ -75,7 +76,8 @@ h2{
 .overlay-container{
     position: relative;
 }
-.overlay {
+
+.overlay{
     position: absolute; 
     bottom: 0;
     background: rgba(237, 232, 227, 0.7);
@@ -87,18 +89,20 @@ h2{
     height:100px;
     text-align: center;
     -webkit-text-stroke: #00396b 1px;
-    font-family: 'Harmattan',sans-serif;
     line-height: 1px;
 }
+
 .overlay-container:hover .overlay{
     opacity: 1;
  }
+
  .color12_p_container{
     display: flex;
     padding-left: 20px;
     align-items: center;
     gap: 5px;
  }
+
  .color1{
     width: 27px;
     height: 29px;
@@ -119,6 +123,7 @@ border: 2px solid white;
     background: #CFA92A;
     border:2px solid white;
 }
+
 .color4{
     width: 27px;
     height: 29px;
@@ -134,16 +139,15 @@ border: 2px solid white;
 }
 
 .color6{
-        width: 27px;
-            height: 29px;
-            background: #5610AE;
-            border:2px solid white;
+    width: 27px;
+    height: 29px;
+    background: #5610AE;
+    border:2px solid white;
 }
 
-
- .price{
+.price{
     margin: 0;
- }
+}
 
  .containerwithbag{
     display: flex;
@@ -165,8 +169,6 @@ border: 2px solid white;
     display: flex;
     flex-direction: column;
  }
- 
- 
  
 .background-flex{
     background-image: url(../images/fishing.png);
@@ -192,7 +194,6 @@ border: 2px solid white;
     color: #ffffff;
 }
 
-
 .p1 {
     max-width: 300px;
     padding: 20px;
@@ -210,25 +211,24 @@ border: 2px solid white;
     margin-bottom: 0;
     background-color: rgba(237, 232, 227, .1);
     padding: 15px;
-
-    
 }
 
-
-
-   @media (max-width: 1352px){
+@media (max-width: 1352px){
     .raincoat{
         width: 218.75px;
         height: 218.75px;
     }
+
     .yellow-text{
         width: 280px;
         height: 100px;
     }
+
     h1{
         font-size: 28px; 
         max-width: 483px;
     }
+
     .container{
         flex-direction: column-reverse;
     }
@@ -252,10 +252,10 @@ border: 2px solid white;
 }
 
 @media (max-width: 540px){
-
     .newin-products2{
         padding:10px;
     }
+
     .background-flex{
         height: 387px;
         width: 250px;
@@ -271,7 +271,6 @@ border: 2px solid white;
 
     .text-container1{
         max-width: 263px;
-       
     }
 
     .text-container2{
@@ -298,6 +297,4 @@ border: 2px solid white;
         align-items: center;
     }
 }
-@import url('https://fonts.googleapis.com/css2?family=Harmattan&display=swap');
-
 
