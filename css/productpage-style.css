@@ -38,8 +38,14 @@ h2{
     border: solid #EDE8E3;
     border-radius: 1em;
     margin-top: 50px;
-    padding-top: 20px;
-    height: 600px;
+    padding: 20px;
+    width: 400px;
+    height: 440px;
+}
+
+.jacket-container img{
+    width: 400px;
+    height: 400px;
 }
 
 .text{
@@ -92,6 +98,7 @@ h2{
     margin-top: 50px;
     display: flex;
     gap: 10px;
+    justify-content: center;
 }
 
 .forminputs{
@@ -265,4 +272,12 @@ form label{
     .row1{
     margin: 5px;
     }
+}
+
+
+.loading {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: red;
 }
