@@ -6,7 +6,7 @@ a{ text-decoration: none; color:#00396b; }
 .container{
     display: flex;
     background-color: #EDE8E3;
-    margin-top: 150px;
+    margin-top: 120px;
     align-items: center;
     justify-content: space-around;
 }
@@ -49,11 +49,13 @@ h2{
 .newin-products{
     display: flex;
     justify-content: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    border: 10px solid #EDE8E3;
     }
     
     .newin-products2{
     display: flex;
-    border: 20px solid #EDE8E3;
     padding: 50px;
     width: 1200px;
     border-radius: 5px;
@@ -65,11 +67,11 @@ h2{
 .jacket-container{
     border-radius: 5px;
     border: solid #EDE8E3 5px;
+    padding: 5px;
 }
 
 .jacket{
-    width: 325px;
-    height: 250px;
+    height: 280px;
 }
 
 .overlay-container{
@@ -80,14 +82,12 @@ h2{
     position: absolute; 
     bottom: 0;
     background: rgba(237, 232, 227, 0.7);
-    color: white; 
     width: 100%;
     transition: .8s ;
     opacity:0;
     font-size: 25px;
     height:100px;
     text-align: center;
-    -webkit-text-stroke: #00396b 1px;
     line-height: 1px;
 }
 
@@ -102,48 +102,7 @@ h2{
     gap: 5px;
  }
 
- .color1{
-    width: 27px;
-    height: 29px;
-    background: #D6C5CB;
-    border: 2px solid #FFFFFF;
- }
-
- .color2{
-    width: 27px;
-    height: 29px;
-    background: #606F84;
-    border: 2px solid white;
- }
-
-.color3{
-    width: 27px;
-    height: 29px;
-    background: #CFA92A;
-    border:2px solid white;
-}
-
-.color4{
-    width: 27px;
-    height: 29px;
-    background: #00396B;
-    border:2px solid white;
-}
-    
-.color5{
-    width: 27px;
-    height: 29px;
-    background: #71363C;
-    border:2px solid white;
-}
-
-.color6{
-    width: 27px;
-    height: 29px;
-    background: #5610AE;
-    border:2px solid white;
-}
-
+ 
 .price{
     margin: 0;
 }
@@ -151,7 +110,7 @@ h2{
  .containerwithbag{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
  }
 
 .containerwithbag i{

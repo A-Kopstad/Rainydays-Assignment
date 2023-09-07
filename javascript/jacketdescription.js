@@ -1,4 +1,3 @@
-
 const productdetailsContainer = document.querySelector(".product-container-outer");
 
 const urlParams = new URLSearchParams(window.location.search);
@@ -12,8 +11,6 @@ async function apiCall() {
     try {
         const response = await fetch(productDetailsUrl);
         const result = await response.json();
-
-        await new Promise(resolve => setTimeout(resolve, 2000)); //ta bort
 
         productdetailsContainer.innerHTML = "";
 
