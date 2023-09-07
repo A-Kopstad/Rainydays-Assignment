@@ -180,7 +180,6 @@ form label{
 @media (max-width:624px){
     .jacket{
         height: 300px;
-        width: 350px;
     }
 
     .jacket-container{
@@ -201,7 +200,6 @@ form label{
 
     .jacket{
         height: 200px;
-        width: 250px;
     }
 
     .jacket-container{
@@ -241,8 +239,19 @@ form label{
 
 
 .loading {
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    background-color: red;
+    spinner {
+
+        height: 120px;
+    
+        width: 120px;
+    
+        border: 6px solid;
+    
+        border-radius: 50%;
+    
+        border-color: black;
+    
+        /* animation: spin 1s linear infinite; */
+    
+        animation: spin 1.3s ease infinite;    
 }

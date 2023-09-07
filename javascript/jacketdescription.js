@@ -6,8 +6,11 @@ const productId = urlParams.get("id");
 
 
 const productDetailsUrl = `https://api.noroff.dev/api/v1/rainy-days/${productId}`;
+
 productdetailsContainer.innerHTML = `<div class="loading"></div>`;
+
 async function apiCall() {
+
     try {
         const response = await fetch(productDetailsUrl);
         const result = await response.json();
