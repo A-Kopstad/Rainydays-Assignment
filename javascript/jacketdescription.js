@@ -18,9 +18,7 @@ async function apiCall() {
             <div class="product-container-inner">
                 <div class="row1">
                     <div class="jacket-container">
-                        <a href="/html/productpage.html">
                             <img class="jacket" src="${result.image}" alt="${result.title}" />
-                        </a>
                     </div>
                     <p class="text">${result.description}&nbsp;</p>
                 </div>
