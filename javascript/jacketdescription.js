@@ -26,6 +26,8 @@ async function apiCall() {
                 </div>
             </div>`;
 
+            document.title = result.title;
+
     } catch (error) {
         productdetailsContainer.innerHTML = "An error has occurred";
         console.error('Error fetching product details:', error);

@@ -16,12 +16,16 @@ async function apiCall () {
             
             const allResults = result [i];
 
-            newIn.innerHTML += 
+            const productCard = document.createElement('div');
+            productCard.classList.add('product-container-inner', 'product-card');
+            productCard.dataset.productId = allResults.id;
+
+            productCard.innerHTML = ` 
             
-            `  <div class="newin-products2">
+              <div class="newin-products2">
             <div class="overlay-container">
               <div class="jacket-container">
-                <a href="/html/productpage.html">
+                <a href="/html/productpage.html?id=${allResults.id}">
                   <img
                     class="jacket"
                     src="${allResults.image}"
@@ -43,6 +47,10 @@ async function apiCall () {
               </div>
             </div>
               `;
+
+          
+
+            newIn.appendChild(productCard);
     
         }
     }
@@ -54,3 +62,4 @@ async function apiCall () {
 }
 
 apiCall();
+
