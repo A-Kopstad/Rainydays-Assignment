@@ -25,18 +25,13 @@ async function apiCall () {
               <div class="newin-products2">
             <div class="overlay-container">
               <div class="jacket-container">
-                <a href="/html/productpage.html?id=${allResults.id}">
-                  <img
-                    class="jacket"
-                    src="${allResults.image}"
-                    alt="A jacket"
-                  />
-                </a>
+              <form class="product-button" action="/html/productpage.html?id=${allResults.id}" method="GET">
+              <input type="hidden" name="id" value="${allResults.id}"/> <button>
+              <img class="jacket" src="${allResults.image}" alt="${allResults.title}"/>
+              </button>
+              </form>
               </div>
-             
-              <a href="/html/productpage.html?id=${allResults.id}"> <p><p class="jacket-title">${allResults.title};</p> <p> $ ${allResults.price.toFixed(2)} USD</p></p> </a>
-
-                  
+              <a href="/html/productpage.html?id=${allResults.id}"> <p><p class="jacket-title">${allResults.title};</p> <p> $ ${allResults.price.toFixed(2)} USD</p></p> </a> 
               `;
 
             newIn.appendChild(productCard);

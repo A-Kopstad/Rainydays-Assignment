@@ -27,7 +27,7 @@ async function apiCall () {
                     </div>
                         </div>
                     </div>
-                    <p><p class="jacket-title">${allResults.title}</p> <p> $ ${allResults.price.toFixed(2)} USD</p></p>
+                    <a href="/html/productpage.html?id=${allResults.id}"> <p class="jacket-title">${allResults.title}</p> <p> $ ${allResults.price.toFixed(2)} USD</p></a>
                 </div>
             `;
 

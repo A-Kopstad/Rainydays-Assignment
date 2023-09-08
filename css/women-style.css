@@ -87,7 +87,10 @@ select{
  button {
     background: none;
     border: none;
+    cursor: pointer;
+       
  }
+
 @media (max-width:1160px){
     .container{
         flex-direction: column;
