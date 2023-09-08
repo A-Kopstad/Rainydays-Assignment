@@ -84,6 +84,10 @@ select{
     font-weight: 600;
  }
 
+ button {
+    background: none;
+    border: none;
+ }
 @media (max-width:1160px){
     .container{
         flex-direction: column;
