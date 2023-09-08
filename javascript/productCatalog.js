@@ -19,12 +19,15 @@ async function apiCall () {
                 <div class="row1">
                     <div class="jacket-container">
                         <div class="overlay-container">
-                            <a href="/html/productpage.html?id=${allResults.id}">
-                                <img class="jacket" src="${allResults.image}" alt="${allResults.title}" />
-                            </a>
+                        <form class="product-button" action="/html/productpage.html?id=${allResults.id}" method="GET">
+                        <input type="hidden" name="id" value="${allResults.id}"/> <button>
+                        <img class="jacket" src="${allResults.image}" alt="${allResults.title}"/>
+                        </button>
+                        </form>
+                    </div>
                         </div>
                     </div>
-                    <p><p class="jacket-title">${allResults.title};</p> <p> $ ${allResults.price.toFixed(2)} USD</p></p>
+                    <p><p class="jacket-title">${allResults.title}</p> <p> $ ${allResults.price.toFixed(2)} USD</p></p>
                 </div>
             `;
 
