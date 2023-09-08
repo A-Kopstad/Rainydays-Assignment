@@ -28,12 +28,9 @@ async function apiCall () {
                 </div>
             `;
 
-            productCard.addEventListener('click', () => {
-                const productId = productCard.dataset.productId;
-            });
-
             productdetailsContainer.appendChild(productCard);
         }
+        
     } catch (error) {
         productdetailsContainer.innerHTML = "An error has occurred";
     }

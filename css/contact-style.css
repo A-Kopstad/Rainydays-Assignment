@@ -86,6 +86,7 @@
     .container{
         flex-direction: column-reverse;
         font-size: 30px;
+        margin-top: 80px;
     }
 
     .raincoat{

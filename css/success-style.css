@@ -66,6 +66,7 @@ h2{
         font-size: 35px;
         flex-direction: column;
         object-fit: contain;
+        margin-top: 80px;
     }
 
     .container .fa-shopping-bag{

@@ -11,8 +11,8 @@
 
 .raincoat{
     border-radius: 50%;
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -77,4 +77,28 @@ select{
 
 .jacket{
     height: 271px;
+}
+
+
+.jacket-title{
+    font-weight: 600;
+ }
+
+@media (max-width:1160px){
+    .container{
+        flex-direction: column;
+        margin-top: 80px;
+    }
+
+}
+
+@media (max-width: 425px){
+    .sortby-page-flex{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .jacket-container{
+        padding: 0px;
+    }
 }

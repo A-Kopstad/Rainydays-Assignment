@@ -29,26 +29,15 @@ async function apiCall () {
                   <img
                     class="jacket"
                     src="${allResults.image}"
-                    alt="A pink jacket"
+                    alt="A jacket"
                   />
-                  <p class="mobile-text">Pink Rainjacket</p>
                 </a>
               </div>
-              <div class="overlay">
-                <p>Scott Jacket '21</p>
-                <div class="containerwithbag">
-                  <div class="color12_p_container">
-                    <p class="price">120$</p>
-                  </div>
-                  <a aria-label="shopping-icon" href="/html/checkout.html"
-                    ><i class="fa fa-shopping-bag"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-              `;
+             
+              <a href="/html/productpage.html?id=${allResults.id}"> <p><p class="jacket-title">${allResults.title};</p> <p> $ ${allResults.price.toFixed(2)} USD</p></p> </a>
 
-          
+                  
+              `;
 
             newIn.appendChild(productCard);
     

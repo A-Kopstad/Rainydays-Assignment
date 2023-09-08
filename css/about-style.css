@@ -38,12 +38,14 @@ h1{
     max-width: 500px;
     font-size: 1.6em;
     line-height: 60px;
+    padding: 20px;
 }
     
 
-@media (max-width:1115px){
+@media (max-width:1155px){
     .container{
         flex-direction: column-reverse;
+        margin-top: 80px;
     }
     
     .raincoat{
@@ -58,7 +60,6 @@ h1{
         
     .border p{
         font-size: 20px;
-        padding: 20px;
         }
 }
 
@@ -67,4 +68,8 @@ h1{
         margin-left: 20px;
         margin-right: 20px;
         }
+
+    .border p{
+        line-height: 38px;
+    }
     }

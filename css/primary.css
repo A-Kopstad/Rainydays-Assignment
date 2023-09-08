@@ -11,11 +11,12 @@ display:flex;
 justify-content: flex-start;
 align-items: center;
 margin-top: 0%;
-height: 40px;
+height: 60px;
 gap:2em;
 list-style-type: none;
 background: #EDE8E3;
 padding-left: 10em;
+margin-bottom: 30px;
 }
 
 .top-bar li{
@@ -136,14 +137,7 @@ footer ul{
     text-decoration: underline;
 }
 
-.news-text{
-    font-size: 25px;
-    margin:5px;
- }
- 
- .news-text:hover{
-     text-decoration: none;
- }
+
 .flex-img{
     display: flex;
     justify-content: center;
@@ -173,13 +167,13 @@ h1{
 
     .icons{
         margin-right: 0%;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 40px;
     }
     
     .flex-img img{
         width:300px;
     }
+
 }
 
 @media (max-width:480px){

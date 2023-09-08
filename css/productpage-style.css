@@ -175,6 +175,11 @@ form label{
         justify-content: center;
         padding-top: 40px;
     }
+
+    .container{
+        margin-top: 80px;
+
+    }
 }
 
 @media (max-width:624px){
@@ -187,12 +192,16 @@ form label{
         margin:10px
     }
 
+    .jacket-container img{
+        height: 280px;
+    }
+
     .product-container-outer{
         margin: 60px;
     }
 }
 
-@media (max-width:457px){
+@media (max-width:460px){
     .product-container-inner{
         border:4px solid #EDE8E3;
         margin: 0;
@@ -205,6 +214,10 @@ form label{
     .jacket-container{
         height: 250px;
         margin-top: 10px;;
+    }
+
+    .jacket-container img{
+        height: 225px;
     }
 
     .text{
@@ -237,21 +250,18 @@ form label{
     }
 }
 
+@media (max-width:320px){
+.text{
+    font-size: 15px;
+    padding: 20px;
+}
 
-.loading {
-    spinner {
+.jacket-container{
+    height: 200px;
+}
 
-        height: 120px;
-    
-        width: 120px;
-    
-        border: 6px solid;
-    
-        border-radius: 50%;
-    
-        border-color: black;
-    
-        /* animation: spin 1s linear infinite; */
-    
-        animation: spin 1.3s ease infinite;    
+.jacket-container img{
+    height: 180px;
+}
+
 }

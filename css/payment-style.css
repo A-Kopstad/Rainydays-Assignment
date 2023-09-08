@@ -135,6 +135,8 @@ button:active{
 
     .container{
         font-size: 30px;
+        margin-top: 80px;
+
     }
 
     .container .fa-shopping-bag{
