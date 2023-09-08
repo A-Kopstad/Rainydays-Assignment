@@ -1,12 +1,12 @@
 const url = "https://api.noroff.dev/api/v1/rainy-days";
-const productdetailsContainer = document.querySelector(".product-container-outer");
+const productContainer = document.querySelector(".product-container-outer");
 
 async function apiCall () {
     try {
         const response = await fetch(url);
         const result = await response.json();
 
-        productdetailsContainer.innerHTML = "";
+        productContainer.innerHTML = "";
 
         for (let i = 0; i < result.length; i++){
             const allResults = result[i];
@@ -31,11 +31,11 @@ async function apiCall () {
                 </div>
             `;
 
-            productdetailsContainer.appendChild(productCard);
+            productContainer.appendChild(productCard);
         }
         
     } catch (error) {
-        productdetailsContainer.innerHTML = "An error has occurred";
+        productContainer.innerHTML = "An error has occurred";
     }
 }
 
