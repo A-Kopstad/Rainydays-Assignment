@@ -1,6 +1,8 @@
 const url = "https://api.noroff.dev/api/v1/rainy-days";
 const newIn = document.querySelector(".newin-products");
 
+newIn.innerHTML = `<div class="loading"></div>`;
+
 async function apiCall () {
     try {
         const response = await fetch(url);

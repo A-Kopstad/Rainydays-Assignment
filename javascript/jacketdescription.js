@@ -23,7 +23,10 @@ async function apiCall() {
                     <div class="jacket-container">
                             <img class="jacket" src="${result.image}" alt="${result.title}" />
                     </div>
+                    <div class="textbox">
+                    <h2>${result.title}</h2>
                     <p class="text">${result.description}&nbsp;</p>
+                    </div>
                 </div>
             </div>`;
 
