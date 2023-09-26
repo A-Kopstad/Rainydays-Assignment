@@ -16,11 +16,12 @@ gap:2em;
 list-style-type: none;
 background: #EDE8E3;
 padding-left: 10em;
-margin-bottom: 30px;
+margin-bottom: 50px;
 }
 
 .top-bar li{
 font-weight: bold;
+font-size: 17px;
 }
 
 
@@ -80,15 +81,26 @@ color: #00396b;
     border-color:  #00396b;
     width: 15em;
     height: 2em;
-    border-radius: 2em;
-    padding-left: 1em;
+    border-radius: 20px;
+    padding-left: 16px;
     color: #00396b;
     }  
+
+.searchbar_email:hover{
+    background-color: #ffaa00b9;
+    font-weight: 600;
+}
 
 input:focus{
     outline: none;   
 }
   
+.newsletterMail{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
 
 footer {
     background-color: #EDE8E3;
@@ -121,20 +133,24 @@ footer ul{
     padding-bottom: 40px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    text-align: center;
     gap: 20px;
 }
 
-.news p{
-    cursor: pointer;
-    padding-left: 10px;
-    padding-right: 10px;
+
+ footer .submit{
+    border-radius: 20px;
+    padding: 5px;
+    border-color: #00396b;
+    background: white;
+    width: 100px;
+    color: #00396b;
 }
 
-.news p:hover{
-    text-decoration: underline;
+.submit:hover{
+    background: #ffaa00b9;
+    font-weight: 600;
 }
-
 
 .flex-img{
     display: flex;

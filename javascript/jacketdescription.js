@@ -27,7 +27,7 @@ async function apiCall() {
                     <h2>${result.title}</h2>
                     <p class="text">${result.description}&nbsp;</p>
                     </div>
-                </div>
+                </div
             </div>`;
 
             document.title = result.title;

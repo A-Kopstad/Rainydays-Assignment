@@ -11,7 +11,7 @@ async function apiCall () {
 
         productContainer.innerHTML = "";
 
-        for (let i = 0; i < result.length; i++){
+        for (let i = 0; i <result.length; i++){
             const allResults = result[i];
 
             const productCard = document.createElement('div');
