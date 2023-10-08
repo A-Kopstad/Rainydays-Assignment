@@ -34,6 +34,7 @@ a{ text-decoration: none; color:#00396b; }
 h1{
     max-width: 560px;
     font-size: 32px;
+    color:#00396b ;
     text-shadow: 2px 4px 4px rgb(208, 208, 208);
     top: 100px;
     background-color: rgba(237, 232, 227, .1);
@@ -43,6 +44,7 @@ h2{
     margin-top: 80px;
     padding-left: 9.5vw;
     font-size: 40px;
+    color: #00396b;
 }
 
 .newin-products{
