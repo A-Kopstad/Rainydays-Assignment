@@ -1,20 +1,23 @@
-body{
-    margin: 0%;
+body {
+    max-width: 1700px;
+    width: 100%;
+    margin: 0 auto;
 }
-
-a{ text-decoration: none; color:#00396b; }
-.container{
+  
+nav {
+    width: 100%;
     display: flex;
     background-color: #EDE8E3;
-    margin-top: 150px;
+    margin-top: 50px;
     align-items: center;
     justify-content: space-around;
 }
 
 .raincoat{
     border-radius: 50%;
-    width: 350px;
-    height: 350px;
+    width: 320px;
+    height: 320px;
+    padding: 20px;
     object-fit: cover;
 }
 
@@ -31,10 +34,10 @@ a{ text-decoration: none; color:#00396b; }
 }
 
 h1{
-    max-width: 450px;
-    font-size: 40px;
-    color:white ;
-    text-shadow: 2px 4px 4px rgb(187, 184, 184);
+    max-width: 560px;
+    font-size: 32px;
+    color:#00396b ;
+    text-shadow: 2px 4px 4px rgb(208, 208, 208);
     top: 100px;
     background-color: rgba(237, 232, 227, .1);
 }
@@ -49,13 +52,15 @@ h2{
 .newin-products{
     display: flex;
     justify-content: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    border: 10px solid #EDE8E3;
+    flex-wrap: wrap;
     }
     
     .newin-products2{
     display: flex;
-    border: 20px solid #EDE8E3;
     padding: 50px;
-    width: 1200px;
     border-radius: 5px;
     justify-content: space-around;
     gap: 10px;
@@ -65,11 +70,13 @@ h2{
 .jacket-container{
     border-radius: 5px;
     border: solid #EDE8E3 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
 }
 
 .jacket{
-    width: 325px;
-    height: 250px;
+    height: 280px;
 }
 
 .overlay-container{
@@ -80,14 +87,12 @@ h2{
     position: absolute; 
     bottom: 0;
     background: rgba(237, 232, 227, 0.7);
-    color: white; 
     width: 100%;
     transition: .8s ;
     opacity:0;
     font-size: 25px;
     height:100px;
     text-align: center;
-    -webkit-text-stroke: #00396b 1px;
     line-height: 1px;
 }
 
@@ -102,48 +107,9 @@ h2{
     gap: 5px;
  }
 
- .color1{
-    width: 27px;
-    height: 29px;
-    background: #D6C5CB;
-    border: 2px solid #FFFFFF;
+ .jacket-title{
+    font-weight: bold;
  }
-
- .color2{
-    width: 27px;
-    height: 29px;
-    background: #606F84;
-    border: 2px solid white;
- }
-
-.color3{
-    width: 27px;
-    height: 29px;
-    background: #CFA92A;
-    border:2px solid white;
-}
-
-.color4{
-    width: 27px;
-    height: 29px;
-    background: #00396B;
-    border:2px solid white;
-}
-    
-.color5{
-    width: 27px;
-    height: 29px;
-    background: #71363C;
-    border:2px solid white;
-}
-
-.color6{
-    width: 27px;
-    height: 29px;
-    background: #5610AE;
-    border:2px solid white;
-}
-
 .price{
     margin: 0;
 }
@@ -151,7 +117,7 @@ h2{
  .containerwithbag{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
  }
 
 .containerwithbag i{
@@ -167,17 +133,7 @@ h2{
  .textgathered{
     display: flex;
     flex-direction: column;
- }
- 
-.background-flex{
-    background-image: url(../images/fishing.png);
-    height: 774px;
-    width: 526px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    font-size: 30px;
-    color: white;
+    align-items: end;
 }
 
 .background-flex a{
@@ -185,8 +141,12 @@ h2{
 }
 
 .background-flex i{
-    margin-left:180px;
+    margin-left:35px;
     font-size: 50px;
+}
+
+.background-flex i:hover{
+    color: #ECB247;
 }
 .textcontainer1{
     font-size: 30px;
@@ -203,17 +163,24 @@ h2{
 
 
 .p2{
-    width: 150px;
+    width: 248px;
     color:white;
-    margin-left: 280px;
-    margin-top: 300px;
+    margin-left: 232px;
+    margin-top: 402px;
     margin-bottom: 0;
-    background-color: rgba(237, 232, 227, .1);
+    background-color: rgba(237, 232, 227, 0.041);
     padding: 15px;
 }
 
-.mobile-text{
-    display: none;
+.p2:hover{
+    color: #ECB247;
+    background-color:  rgba(237, 232, 227, .1);
+    -webkit-text-stroke: 2px #ffaa00b9;
+}
+button{
+    background: none;
+    border: none;
+    cursor: pointer;
 }
 
 @media (max-width: 1352px){
@@ -235,47 +202,48 @@ h2{
 
     .container{
         flex-direction: column-reverse;
+        margin-top: 80px;
+
     }
 
     .newin-products2{
-        max-width:660px;
         flex-direction: column;
         align-items: center;
-        border: 10px solid #EDE8E3;
-        margin-left: 150px;
-        margin-right:150px;
+        
     }
 
    .jacket{
-    width: 231.57px;
-    height: 178.2px;
+    height: 200px;
     }
 
     .inner-container{
         align-items: center;
     }
+
+
 }
 
 @media (max-width:1080px){
     .overlay{
         display: none;
     }
-    
-    .mobile-text{
-        display: flex;
-        justify-content: center;
-    }
 
+    .newin-products{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    
 }
 
-@media (max-width: 540px){
+@media (max-width:540px){
+
     .newin-products2{
         padding:10px;
     }
 
     .background-flex{
         height: 387px;
-        width: 250px;
+        width: 263px;;
         background-size: 263px;
     }
     
@@ -314,5 +282,12 @@ h2{
         align-items: center;
     }
 
+    
+
 }
 
+@media (max-width: 350px){
+    .jacket{
+        height: 160px;
+    }
+}
