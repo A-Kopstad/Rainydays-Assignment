@@ -33,7 +33,7 @@ async function apiCall () {
               </button>
               </form>
               </div>
-              <a href="/html/productpage.html?id=${allResults.id}"> <p><p class="jacket-title">${allResults.title}</p> <p> $ ${allResults.price.toFixed(2)} USD</p></p> </a> 
+              <a href="/html/productpage.html?id=${allResults.id}"> <p><p class="jacket-title">${allResults.title}</p> <p> $ ${allResults.price.toFixed(2)}</p></p> </a> 
               `;
 
             newIn.appendChild(productCard);

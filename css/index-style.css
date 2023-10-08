@@ -34,7 +34,6 @@ a{ text-decoration: none; color:#00396b; }
 h1{
     max-width: 560px;
     font-size: 32px;
-    color:#00396b ;
     text-shadow: 2px 4px 4px rgb(208, 208, 208);
     top: 100px;
     background-color: rgba(237, 232, 227, .1);
@@ -44,7 +43,6 @@ h2{
     margin-top: 80px;
     padding-left: 9.5vw;
     font-size: 40px;
-    color: #00396b;
 }
 
 .newin-products{
@@ -154,7 +152,9 @@ h2{
 }
 
 .background-flex i:hover{
-    color: #ECB247;
+    text-shadow: 3px 2px 2px black;
+    margin-left: 70px;
+}
 }
 .textcontainer1{
     font-size: 30px;
@@ -181,9 +181,8 @@ h2{
 }
 
 .p2:hover{
-    color: #ECB247;
     background-color:  rgba(237, 232, 227, .1);
-    -webkit-text-stroke: 2px #ffaa00b9;
+    text-shadow: 3px 2px 2px black;
 }
 button{
     background: none;
@@ -206,6 +205,7 @@ button{
         font-size: 28px; 
         max-width: 483px;
         padding: 20px;
+        text-align: center;
     }
 
     .container{
@@ -228,6 +228,10 @@ button{
         align-items: center;
     }
 
+    h2{
+        text-align: center;
+        padding: 0;
+    }
 
 }
 
