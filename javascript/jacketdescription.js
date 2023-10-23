@@ -30,24 +30,37 @@ async function apiCall() {
         productCard.classList.add('product-container-inner', 'product-card');
         productCard.dataset.productId = result.id;
 
-        productCard.innerHTML = `
-            <div class="row1">
-                <div class="jacket-container">
-                    <div class="overlay-container">
-                        <form class="product-button" action="/html/productpage.html?id=${result.id}" method="GET">
-                            <input type="hidden" name="id" value="${result.id}"/> <button>
-                                <img class="jacket" src="${result.images[0].src}" alt="${result.name}"/>
-                            </button>
-                        </form>
+        // Konverterer strengen til et flyttall (hvis det er en gyldig tallstreng)
+        const parsedPrice = parseFloat(result.prices.price);
+
+        if (!isNaN(parsedPrice)) {
+            const formattedPrice = (parsedPrice / 100).toFixed(2); // Deler på 100 for å konvertere til riktig pris
+
+            productCard.innerHTML = `
+                <div class="row1">
+                    <div class="jacket-container">
+                        <div class="overlay-container">
+                            <form class="product-button" action="/html/productpage.html?id=${result.id}" method="GET">
+                                <input type="hidden" name="id" value="${result.id}"/> 
+                                <button>
+                                    <img class="jacket" src="${result.images[0].src}" alt="${result.name}"/>
+                                </button>
+                            </form>
+                        </div>
                     </div>
+                    <a href="/html/productpage.html?id=${result.id}">
+                        <p class="jacket-title">${result.name}</p>
+                        <p class="description">${result.description}</p>
+                        <p class="price"> $ ${formattedPrice}</p>
+                    </a>
                 </div>
-                <a href="/html/productpage.html?id=${result.id}">
-                    <p class="jacket-title">${result.name}</p>
-                    <p> $ ${parseFloat(result.prices.price).toFixed(2)}</p>
-                </a>
-            </div>
-        `;
-        productContainer.appendChild(productCard);
+            `;
+
+            productContainer.appendChild(productCard);
+        } else {
+            console.error('Invalid price format:', result.prices.price);
+            productContainer.innerHTML = "An error has occurred";
+        }
     } catch (error) {
         console.error('API Error:', error);
         productContainer.innerHTML = "An error has occurred";
@@ -55,4 +68,3 @@ async function apiCall() {
 }
 
 apiCall();
-

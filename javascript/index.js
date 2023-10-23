@@ -24,7 +24,6 @@ async function apiCall() {
         }
 
         const result = await response.json();
-        console.log(result);
 
         newIn.innerHTML = "";
 

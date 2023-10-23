@@ -38,13 +38,16 @@ h2{
  justify-content: space-around;
  margin: 20px;
  align-items: center;
+ gap: 130px;
+ padding: 80px;
 }  
 
 
 .jacket-container img{
-    height: 380px;
+    height: 450px;
     border: 5px solid #EDE8E3;
     padding: 10px;
+    background-color: white;
 }
 
 .text{
@@ -161,6 +164,9 @@ form label{
     text-align: center;
 }
 
+button{
+    border: none;
+}
 
 @media (max-width:1284px){
     .product-container-inner{
