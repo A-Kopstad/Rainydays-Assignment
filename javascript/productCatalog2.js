@@ -29,7 +29,7 @@ async function apiCall() {
 
         for (let i = 0; i < result.length; i++) {
             const allResults = result[i];
-if (allResults.categories.some(category => category.slug === 'women')) {
+if (allResults.categories.some(category => category.slug === 'men')) {
                 const productCard = document.createElement('div');
                 productCard.classList.add('product-container-inner', 'product-card');
                 productCard.dataset.productId = allResults.id;
