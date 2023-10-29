@@ -1,6 +1,6 @@
 const corsUrl = "https://noroffcors.onrender.com/";
 const endpointlUrl = "https://rainydays.websolutionscore.com/wp-json/wc/store/products";
-const url = corsUrl + endpointUrl;
+const url = corsUrl + endpointlUrl;
 
 const productContainer = document.querySelector(".product-container-outer");
 
@@ -22,6 +22,7 @@ async function apiCall() {
         if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}`);
         }
+
         const result = await response.json();
 
         productContainer.innerHTML = "";
@@ -30,7 +31,9 @@ async function apiCall() {
             const allResults = result[i];
 
             const productCard = document.createElement('div');
+
             productCard.classList.add('product-container-inner', 'product-card');
+
             productCard.dataset.productId = allResults.id;
 
             productCard.innerHTML = `
