@@ -1,6 +1,6 @@
-const corsAnywhereUrl = "https://noroffcors.onrender.com/";
-const originalUrl = "https://rainydays.websolutionscore.com/wp-json/wc/store/products";
-const url = corsAnywhereUrl + originalUrl;
+const corsUrl = "https://noroffcors.onrender.com/";
+const endpointlUrl = "https://rainydays.websolutionscore.com/wp-json/wc/store/products";
+const url = corsUrl + endpointlUrl;
 
 const newIn = document.querySelector(".newin-products");
 
@@ -38,7 +38,6 @@ async function apiCall() {
             productCard.classList.add('product-container-inner', 'product-card');
             productCard.dataset.productId = allResults.id;
 
-            // Make sure to check if images array is not empty
             const imageUrl = allResults.images.length > 0 ? allResults.images[0].src : '';
 
             productCard.innerHTML = `
