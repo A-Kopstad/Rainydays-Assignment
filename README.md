@@ -42,6 +42,5 @@ To run the project, open the project using the Live Server extension, and it wil
 If you want to contribute to this project, make sure to make a pull request.
 
 ## Contact
-If you want to reach out to me for inquiries, message me on LinkedIn
 
-[My LinkedIn page] (https://www.linkedin.com/in/alexandra-k-2212a7214/)
+If you want to reach out to me for inquiries, message me on [LinkedIn](https://www.linkedin.com/in/alexandra-k-2212a7214/) 
